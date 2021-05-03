@@ -1,0 +1,3 @@
+[submodule "mimic-tokenize"]
+	path = mimic-tokenize
+	url = https://github.com/jsh08/mimic-tokenize.git
