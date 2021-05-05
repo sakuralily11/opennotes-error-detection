@@ -28,7 +28,7 @@ Using a pre-training model
 --------------------------
 Run the `predict.py` file with three arguments:
 1. Path to the model specification file (`*.pkl`)
-1. Input file in the `jsonl` format (see `mli_dev_v1.jsonl`) or the `\t`-separated premise and hypothesis (see [test_input.txt](https://mednli.blob.core.windows.net/shared/test_input.txt) or `data/input_test_small.txt``) 
+1. Input file in the `jsonl` format (see `mli_dev_v1.jsonl`) or the `\t`-separated premise and hypothesis (see [test_input.txt](https://mednli.blob.core.windows.net/shared/test_input.txt) or `data/input_test_small.txt`) 
 1. Output file `.csv` to save predicted probabilities of each of the three classes (contradiction, entailment, and neutral)
 
 Notes:
