@@ -13,7 +13,8 @@ from utils.torch import create_data_loader, get_trainable_parameters, to_device,
 
 
 def get_model_name(cfg):
-    model_name = f'mednli.{cfg.model.name.lower()}.{cfg.word_embeddings.name.lower()}.{cfg.hidden_size}'
+    #model_name = f'mednli.{cfg.model.name.lower()}.{cfg.word_embeddings.name.lower()}.{cfg.hidden_size}'
+    model_name = f'mimic.{cfg.model.name.lower()}.{cfg.word_embeddings.name.lower()}.{cfg.hidden_size}'
 
     return model_name
 
