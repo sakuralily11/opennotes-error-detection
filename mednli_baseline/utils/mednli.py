@@ -18,12 +18,21 @@ def read_mednli(filename):
     data = []
 
     with open(filename, 'r') as f:
-        for line in f:
-            example = json.loads(line)
+        # for line in f:
+        #     example = json.loads(line)
 
-            premise = get_tokens(example['sentence1_binary_parse'])
-            hypothesis = get_tokens(example['sentence2_binary_parse'])
-            label = example.get('gold_label', None)
+        #     premise = get_tokens(example['sentence1_binary_parse'])
+        #     hypothesis = get_tokens(example['sentence2_binary_parse'])
+        #     label = example.get('gold_label', None)
+
+        #     data.append((premise, hypothesis, label))
+        for line in f.readlines():
+            example = line.split('\t')
+            #print(example)
+
+            premise = get_tokens(example[0])
+            hypothesis = get_tokens(example[1])
+            label = example[2].rstrip()
 
             data.append((premise, hypothesis, label))
 
@@ -40,10 +49,15 @@ def read_sentences(filename):
 
 
 def load_mednli(cfg):
+    # filenames = [
+    #     'mli_train_v1.jsonl',
+    #     'mli_dev_v1.jsonl',
+    #     'mli_test_v1.jsonl',
+    # ]
     filenames = [
-        'mli_train_v1.jsonl',
-        'mli_dev_v1.jsonl',
-        'mli_test_v1.jsonl',
+        'train.txt',
+        'dev.txt',
+        'test.txt',
     ]
     filenames = [cfg.mednli_dir.joinpath(f) for f in filenames]
 
