@@ -1,0 +1,931 @@
+sentence 1,sentence 2,label
+"No history of blood clots or DVTs, has never had chest pain prior to one week ago.", Patient has angina,0
+"No history of blood clots or DVTs, has never had chest pain prior to one week ago.", Patient has had multiple PEs,1
+Over the past week PTA he has been more somnolent and difficult to arrouse. ., He has been less alert over the past week ,0
+Over the past week PTA he has been more somnolent and difficult to arrouse. ., Over the past week he has been alert and oriented,1
+"COPD/Asthma: Spirometry ([**4-/3393**]) FVC 2.48 (67%), FEV1 1.96 (68%), FEV1/FVC 101%, DLCO ([**3-/3392**]) 51%, Lung vol ([**3-/3392**]): TLC 64%, FRC 48%, RV 49%, ERV 47%, multiple admissions, intubation x 1 [**3391**] 3.", the patient has a history of obstructive lung disease,0
+"COPD/Asthma: Spirometry ([**4-/3393**]) FVC 2.48 (67%), FEV1 1.96 (68%), FEV1/FVC 101%, DLCO ([**3-/3392**]) 51%, Lung vol ([**3-/3392**]): TLC 64%, FRC 48%, RV 49%, ERV 47%, multiple admissions, intubation x 1 [**3391**] 3.", the patient has normal lungs,1
+"During hospitalization, patient became progressively more dyspnic requiring BiPAP and then a NRB.", The patient is in respiratory failure. ,0
+"During hospitalization, patient became progressively more dyspnic requiring BiPAP and then a NRB.", The patient is on room air. ,1
+"She was treated with Magnesium Sulfate, Labetalol, Hydralazine and bedrest as well as betamethasone.", The patient is pregnant. ,0
+"She was treated with Magnesium Sulfate, Labetalol, Hydralazine and bedrest as well as betamethasone.", The patient is not pregnant. ,1
+"[**Known patient lastname 26444**] is a 54y/o gentleman with HTN, HLD, DM2, CKD (baseline Cr 2.0-2.2), CAD s/p CABG [**2947**] (LIMA-LAD, SVG-PDA, and radial-OM1-OM2) with systolic and diastolic heart failure (EF has been as low as 20% in the past) who is admitted from clinic due to concern for CHF exacerbation.", the patient has heart failure,0
+"[**Known patient lastname 26444**] is a 54y/o gentleman with HTN, HLD, DM2, CKD (baseline Cr 2.0-2.2), CAD s/p CABG [**2947**] (LIMA-LAD, SVG-PDA, and radial-OM1-OM2) with systolic and diastolic heart failure (EF has been as low as 20% in the past) who is admitted from clinic due to concern for CHF exacerbation.", the patient has a normal heart,1
+Her a[** Location **]e and PO intake have been normal., Patient has been eating by mouth,0
+Her a[** Location **]e and PO intake have been normal., She has been NPO since midnigh,1
+"On [**2781-9-17**], a lumbar puncture was performed which was negative for malignant cells.", Patient has had a procedure,0
+"On [**2781-9-17**], a lumbar puncture was performed which was negative for malignant cells.", Patient has metastases to the spine,1
+"The patient denied any headache, visual changes, chest pain, pleuritic pain, back pain, abdominal pain, diarrhea, blood per rectum, melena, dysuria, rash, or joint pain.", the patient denies chest pain,0
+"The patient denied any headache, visual changes, chest pain, pleuritic pain, back pain, abdominal pain, diarrhea, blood per rectum, melena, dysuria, rash, or joint pain.", the patient has chest pain,1
+"Denied headache, sinus tenderness, rhinorrhea or congestion.", Patient has negative ROS,0
+"Denied headache, sinus tenderness, rhinorrhea or congestion.", Patient has headaches,1
+"Head CT showed small right temporal intraparenchymal hemorrhage, 2x2 cm., which was unchanged on repeat head CT.", the patient has intracranial hemorrhage,0
+"Head CT showed small right temporal intraparenchymal hemorrhage, 2x2 cm., which was unchanged on repeat head CT.", the patient had a normal head ct,1
+Ruled in for NSTEMI with troponin 0.11., The patient has myocardial ischemia. ,0
+Ruled in for NSTEMI with troponin 0.11., The patient has normal myocardial perfusion. ,1
+"26 yo male with HIV (CD4 11 [**5-14**]) non compliant with HAART, with recent [**Hospital1 68**] admission with purigo nodularis and treated with sarna and benadryl, now c/o 3-days of increased right arm pain and swelling.", The patient has a chronic illness. ,0
+"26 yo male with HIV (CD4 11 [**5-14**]) non compliant with HAART, with recent [**Hospital1 68**] admission with purigo nodularis and treated with sarna and benadryl, now c/o 3-days of increased right arm pain and swelling.", The patient does not have an infection. ,1
+Her CXR was clear and it did not appear she had an infection., Chest x-ray showed no consolidation ,0
+Her CXR was clear and it did not appear she had an infection., Chest x-ray showed infiltrates,1
+Type II Diabetes Mellitus 3., The patient has type II diabetes.,0
+Type II Diabetes Mellitus 3., The patient has normal blood glucose.,1
+He had several episodes of hyperglycemia requiring large doses of insulin., He had high blood sugar levels,0
+He had several episodes of hyperglycemia requiring large doses of insulin., Blood sugars were within normal limits,1
+HTN 10.sinusitis diagnosed during last admission 11. h/o R PTX last hospitalization requiring CT placement (d/c'd) 12. ?hypoxic brain injury with paresis and cognitive deficit 13., The patient has brain damage. ,0
+HTN 10.sinusitis diagnosed during last admission 11. h/o R PTX last hospitalization requiring CT placement (d/c'd) 12. ?hypoxic brain injury with paresis and cognitive deficit 13., The patient has normal neural anatomy. ,1
+Ventricular drain was also removed on [**2810-12-14**]., History of elevated intracranial pressure,0
+Ventricular drain was also removed on [**2810-12-14**]., No history of neurological symptoms,1
+"Of note, on [**1-25**] pt underwent paracentesis which revealed 145 WBC.  per OMR, on [**1-31**] Dr. [**Name (NI) **] documented that there was 1 positive ascitic fluid culture (coag negative staph) with plan to monitor for possible evidence of infection and treat with antibiotics if indicated.", the patient has ascites,0
+"Of note, on [**1-25**] pt underwent paracentesis which revealed 145 WBC.  per OMR, on [**1-31**] Dr. [**Name (NI) **] documented that there was 1 positive ascitic fluid culture (coag negative staph) with plan to monitor for possible evidence of infection and treat with antibiotics if indicated.", the patient has no ascites,1
+He states that he ate several handfuls of store-bought mixed nuts and reports that within 1 hour he noted swelling of his tongue., He had a reaction after eating nuts,0
+He states that he ate several handfuls of store-bought mixed nuts and reports that within 1 hour he noted swelling of his tongue., He denies allergic reactions to food or drugs,1
+"In the catheterization laboratory, she was found to have mitral regurgitation and a right-dominant coronary system.", The patient has a heart valve abnormality,0
+"In the catheterization laboratory, she was found to have mitral regurgitation and a right-dominant coronary system.", Her heart valves were functioning normally,1
+HISTORY OF PRESENT ILLNESS:  A 34-year-old male status post high speed motor vehicle crash unrestrained driver., Patient has recent trauma,0
+HISTORY OF PRESENT ILLNESS:  A 34-year-old male status post high speed motor vehicle crash unrestrained driver., Patient has not been in an accident,1
+History of [**Male First Name (un) **] mounted spotted fever., Patient has an infection,0
+History of [**Male First Name (un) **] mounted spotted fever., Patient has no complaints,1
+"CHF, EF 55% 6.", Congestive heart failure,0
+"CHF, EF 55% 6.", No history of heart disease,1
+Started Rituxan for 4 weeks in 5/[**3492**]., Treated with Rituximab,0
+Started Rituxan for 4 weeks in 5/[**3492**]., No history of treatment with monoclonal antibody,1
+"Received GI cocktail for h/o GERD, ?esophageal spasm.", History of gastroesophageal reflux disease,0
+"Received GI cocktail for h/o GERD, ?esophageal spasm.", No history of gastroesophageal reflux disease,1
+Mongolian spots on back., Patient has skin findings on exam,0
+Mongolian spots on back., Patient has no exam findings,1
+"She spoke with her oncology team, and was given a prescription for oxycodone 20 mg, which she took [**Hospital1 **].", The patient has pain issues. ,0
+"She spoke with her oncology team, and was given a prescription for oxycodone 20 mg, which she took [**Hospital1 **].", The patient does not have pain. ,1
+Chest x-ray was consistent with mild congestive heart failure., Patient has pulmonary edema,0
+Chest x-ray was consistent with mild congestive heart failure., Patient has normal EF,1
+HISTORY OF PRESENT ILLNESS:  The patient is a 64-year-old woman with a history of right parietal occipital hemorrhage in [**3113-9-29**]., the patient has intracranial hemorrhage,0
+HISTORY OF PRESENT ILLNESS:  The patient is a 64-year-old woman with a history of right parietal occipital hemorrhage in [**3113-9-29**]., the patient has a normal brain,1
+The infant emerged with spontaneous cry., The infant was just born. ,0
+The infant emerged with spontaneous cry., The infant was still born. ,1
+"He was transferred to [**First Name4 (NamePattern1) 1212**] [**Last Name (NamePattern1) **] [**First Name (Titles) **] [**Last Name (Titles) **] for cardiac catheterization, which showed severe three vessel disease and aortic stenosis.", Patient requires a CABG,0
+"He was transferred to [**First Name4 (NamePattern1) 1212**] [**Last Name (NamePattern1) **] [**First Name (Titles) **] [**Last Name (Titles) **] for cardiac catheterization, which showed severe three vessel disease and aortic stenosis.", Patient has normal coronaries,1
+Head CT negative for acute bleed or mass., Head CT showed no hemorrhage ,0
+Head CT negative for acute bleed or mass., Head CT showed hemorrhage ,1
+"On the day prior to admission, he was very short of breath with positive orthopnea, diaphoresis, and tachycardia.", He has recent dyspnea,0
+"On the day prior to admission, he was very short of breath with positive orthopnea, diaphoresis, and tachycardia.", He denies recent dyspnea,1
+This was 42-year-old female with multiple medical co-morbidities., The patient has multiple medical problems.,0
+This was 42-year-old female with multiple medical co-morbidities., The patient has no past medical history.,1
+Recurrent UTIs: ----> Klebsiella (amp resistant) ----> Enterococcus  (Levo resistant) 6., the patient has a history of recurrent utis,0
+Recurrent UTIs: ----> Klebsiella (amp resistant) ----> Enterococcus  (Levo resistant) 6., the patient has no history of UTI,1
+No CP or fevers., Patient has no angina,0
+No CP or fevers., Patient is febrile,1
+She received a total of 4 L NS in the Ed., Patient has been resuscitated,0
+She received a total of 4 L NS in the Ed., Patient has normal vital signs,1
+"P-MIBI [**12-25**]: There is a moderate, fixed defect involving the basilar portion of the lateral wall.", There is an abnormal finding in the lateral wall,0
+"P-MIBI [**12-25**]: There is a moderate, fixed defect involving the basilar portion of the lateral wall.", There are no abnormal findings ,1
+"Infusion stopped and she was treated with Benadryl 50 mg x 1, prednisone 40 mg x 1, ativan 1 mg.", Patient has had an allergic reaction,0
+"Infusion stopped and she was treated with Benadryl 50 mg x 1, prednisone 40 mg x 1, ativan 1 mg.", Patient has negative ROS,1
+CHF exacerbation was in the setting of new inferior HK and he was diuresed with hopes of pursuing RHC/LHC., The patient is fluid overloaded. ,0
+CHF exacerbation was in the setting of new inferior HK and he was diuresed with hopes of pursuing RHC/LHC., The patient has a normal heart.,1
+He was given Lasix 20 mg IV x 1 with good response., patient was diuresed,0
+He was given Lasix 20 mg IV x 1 with good response., patient is fluid depleted,1
+"EKG showed T-wave depression in V3-5, with no prior EKG for comparison.", The EKG shows signs of cardiac ischemia. ,0
+"EKG showed T-wave depression in V3-5, with no prior EKG for comparison.", The patient has a normal EKG. ,1
+Atrioventricular block s/p pacemaker in [**2654**] 8., Patient has cardiac disease,0
+Atrioventricular block s/p pacemaker in [**2654**] 8., Patient has no prior intervention,1
+HISTORY: Not following commands., Patient is disorientated,0
+HISTORY: Not following commands., Patient can follow verbal requests,1
+Head CT was negative for bleed., The patient has no intracranial hemorrhage.,0
+Head CT was negative for bleed., The patient has intracranial hemorrhage.,1
+Her only complaint is a rash on her buttocks., The patient has a rash. ,0
+Her only complaint is a rash on her buttocks., The patient has a normal dermatologic exam.,1
+Cardiovascular S1 and S2 without murmur., The patient does not have abnormal heart sounds. ,0
+Cardiovascular S1 and S2 without murmur., The patient has a mitral regurgitation murmur. ,1
+Prostate cancer treated with surgery 5., Patient has malignancy,0
+Prostate cancer treated with surgery 5., Patient has not had surgery,1
+"On [**7-24**], he had a CT of the chest and CTA of his coronary arteries, which showed extensive plaque in all major coronary arteries with significant stenosis in the left main, LAD and RCA, an ejection fraction of 69% with normal wall motion.", patient has normal cardiac output,0
+"On [**7-24**], he had a CT of the chest and CTA of his coronary arteries, which showed extensive plaque in all major coronary arteries with significant stenosis in the left main, LAD and RCA, an ejection fraction of 69% with normal wall motion.", patient has normal coronary arteries,1
+"Obstructive sleep apnea on C-PAP, 12 mm HG.", The patient has episodes of apnea while sleeping. ,0
+"Obstructive sleep apnea on C-PAP, 12 mm HG.", The patient does not require ventilatory support while sleeping. ,1
+36yo G2P1 who presented at 18+2 wks for termination of severely anomalous fetus., Patient has had an abortion,0
+36yo G2P1 who presented at 18+2 wks for termination of severely anomalous fetus., Patient has a normal pregnancy,1
+DM type II: for 20 years typically under good control unless  she is sick 4., Patient has a chronic medical disease,0
+DM type II: for 20 years typically under good control unless  she is sick 4., Patient has normal blood sugars,1
+"On weaning to 6L NC, his O2 sat decreased to 81-82%", Patient has poor O2 sats,0
+"On weaning to 6L NC, his O2 sat decreased to 81-82%", Patient has normal breathing,1
+"She was treated with two units of FFP, bringing her hematocrit to 15.9.", Her hematocrit is low ,0
+"She was treated with two units of FFP, bringing her hematocrit to 15.9.", Her hematocrit was within normal range,1
+He states that he may have used 2x100mc fentanyl patches instead of his normal 50mcg and 100mcg as prescribed., Patient has been overmedicated,0
+He states that he may have used 2x100mc fentanyl patches instead of his normal 50mcg and 100mcg as prescribed., Patient has taken his medications as written,1
+"s/p MI cath [**Hospital3 **] 60 % circ and 70% RCA with EF 59% [**3370-12-1**]  [**3373-11-1**] had wheezing, so chest CT was obtained showing mass, right hilar 3 cm mass encasing bronchus, 4 biopsies were non-diagnostic HTN +PPD, treated", Patient has evidence of CAD,0
+"s/p MI cath [**Hospital3 **] 60 % circ and 70% RCA with EF 59% [**3370-12-1**]  [**3373-11-1**] had wheezing, so chest CT was obtained showing mass, right hilar 3 cm mass encasing bronchus, 4 biopsies were non-diagnostic HTN +PPD, treated", Patient has no evidence of high blood pressure,1
+"Upon presentation to the ED, he was given Vanco and Unasyn, was intermittently hypoxic with O2 sats 85% while sleeping and was placed on 2L NC and admitted to floor.", His oxygen saturation was low,0
+"Upon presentation to the ED, he was given Vanco and Unasyn, was intermittently hypoxic with O2 sats 85% while sleeping and was placed on 2L NC and admitted to floor.", His oxygen saturation was normal,1
+Migraines with visual aura., the patient has migraines,0
+Migraines with visual aura., the patient denies headaches,1
+Intrapartum course notable for meconium stained amniotic fluid but no identified sepsis risk factors., Amniotic fluid was observed to be stained with meconium ,0
+Intrapartum course notable for meconium stained amniotic fluid but no identified sepsis risk factors., The infant has multiple risk factors for sepsis,1
+She was brought to the ED where she had another seizure and left face twitching as well as left leg movements were noticed., Patient has a seizure disorder,0
+She was brought to the ED where she had another seizure and left face twitching as well as left leg movements were noticed., Patient has no symptoms,1
+No known sick contacts., No recent exposure to people with illness,0
+No known sick contacts., Recent sick contacts in the family ,1
+Her son found her sitting on the floor yesterday evening and called 911., the patient was found on the ground,0
+Her son found her sitting on the floor yesterday evening and called 911., the patient was in her usual state of health,1
+"As he was thought to have anemia of chronic disease based on iron studies at OSH, possible renal contribution so he received erythropoeitin.", He received erythropoeitin to treat his anemia,0
+"As he was thought to have anemia of chronic disease based on iron studies at OSH, possible renal contribution so he received erythropoeitin.", He has a normal hemoglobin,1
+She was therefore admitted for further evaluation and treatment., Patient has symptoms,0
+She was therefore admitted for further evaluation and treatment., Patient has no evidence of disease,1
+Her neurologist mentioned also that she has headaches for which she was taking excessive amounts of Excedrin but which did not improve with Amitriptyline or Topamax., The patient has chronic headaches. ,0
+Her neurologist mentioned also that she has headaches for which she was taking excessive amounts of Excedrin but which did not improve with Amitriptyline or Topamax., The patient does not have any headaches. ,1
+"The ultrasound-guided examination of the mid-esophageal mass demonstrated invasion into the muscularis propria, but no evidence of invasion beyond this, consistent with a T2 tumor.", The patient has a malignancy. ,0
+"The ultrasound-guided examination of the mid-esophageal mass demonstrated invasion into the muscularis propria, but no evidence of invasion beyond this, consistent with a T2 tumor.", The patient has no malignancy. ,1
+Mother developed separation of symphysis pubis and was put in traction., Patient has orthopedic injuries,0
+Mother developed separation of symphysis pubis and was put in traction., Patient has not hard intervention,1
+Bleeding from left femoral arteriotomy and venotomy site with hemostasis achieved after Femstop applied., The patient had a recent intravascular procedure. ,0
+Bleeding from left femoral arteriotomy and venotomy site with hemostasis achieved after Femstop applied., The patient has not had a recent procedure. ,1
+"Hypertension Cholelithiasis, T11-L1 osteomyelitis (s. epi, [**Female First Name (un) **]) c/b sepsis, breast ca, rotator calf injury R,", The patient has had a spinal infection. ,0
+"Hypertension Cholelithiasis, T11-L1 osteomyelitis (s. epi, [**Female First Name (un) **]) c/b sepsis, breast ca, rotator calf injury R,", The patient has not had a bone infection. ,1
+Unbale to repeat blood work after transfusion., the patient was transfused,0
+Unbale to repeat blood work after transfusion., the patient did not require transfusion,1
+"She was given Lasix 20mg IV, Albuterol and Ipratropium nebs, SoluMedrol 125mg.", She was given a diuretic and bronchodilators,0
+"She was given Lasix 20mg IV, Albuterol and Ipratropium nebs, SoluMedrol 125mg.", She received no inhaled medication,1
+"T1DM: x 7yrs, h/o DKA x 6 attributed to poor medication compliance, last A1c [**3-23**]: 13.3% 2.", The patient is persistantly hyperglycemic. ,0
+"T1DM: x 7yrs, h/o DKA x 6 attributed to poor medication compliance, last A1c [**3-23**]: 13.3% 2.", The patient maintains strict glucose control. ,1
+"He was responding inappropriately to questions (i.e. saying ""no"" when he meant to say ""yes""), but appeared to understand what was being said to him.", The patient has expressive dysphasia. ,0
+"He was responding inappropriately to questions (i.e. saying ""no"" when he meant to say ""yes""), but appeared to understand what was being said to him.", The patient is able to speak normally. ,1
+"This is a 59 year old woman with a h/o CAD s/p stenting and DM2 who was admitted from podiatry clinic [**4-1**] with purulent discharge from left foot ulcer, also with erythema of surrounding tissue.", The patient has cellulitis. ,0
+"This is a 59 year old woman with a h/o CAD s/p stenting and DM2 who was admitted from podiatry clinic [**4-1**] with purulent discharge from left foot ulcer, also with erythema of surrounding tissue.", The patient has no signs of infection. ,1
+He was given aspirin 300 PR and started on heparin IV out of concern for ACS., There are signs and symptoms associated with acute coronary syndrome,0
+He was given aspirin 300 PR and started on heparin IV out of concern for ACS., No signs or symptoms suggestive of cardiac event,1
+The patient presented with a change in mental status and hyperglycemia., Patient has diabetes,0
+The patient presented with a change in mental status and hyperglycemia., Patient has normal blood sugar,1
+Pregnancy complicated by ultrasound finding of 13 mm ventricular dilatation at 13 weeks., Patient has cardiomyopathy,0
+Pregnancy complicated by ultrasound finding of 13 mm ventricular dilatation at 13 weeks., Patient has normal ultrasound imaging of the heart,1
+[**Known patient lastname 4399**] was off all therapy for his myeloma since that time., Patient has a history of cancer,0
+[**Known patient lastname 4399**] was off all therapy for his myeloma since that time., Patient has never taken medications,1
+Delivery was by cesarean section for breech positioning., The patient had a cesarean section.,0
+Delivery was by cesarean section for breech positioning., The patient had a vaginal delivery.,1
+She was in her usual state of health until this past week when she had some slight word-finding difficulties and began forgetting more things than usual., She has been having some neurological symptoms ,0
+She was in her usual state of health until this past week when she had some slight word-finding difficulties and began forgetting more things than usual., She denies neurocognitive symptoms ,1
+"WBC 12, Hct 41.", WBC slightly elevated,0
+"WBC 12, Hct 41.", WBC levels are low,1
+"She initially was treated with a course of Vanc, Zosyn, and Flagyl.", She received antibiotics,0
+"She initially was treated with a course of Vanc, Zosyn, and Flagyl.", She did not receive antibiotics,1
+"It is not associated with jaundice, hematemasis, hematochezia.", the patient is not jaundiced,0
+"It is not associated with jaundice, hematemasis, hematochezia.", the patient is jaundiced,1
+"On transfer to floor, pt. denies cp, sob, dizziness, weakness, palpitations, nausea, vomiting, abdominal pain.", The patient does not have symptoms of an myocardial infarction. ,0
+"On transfer to floor, pt. denies cp, sob, dizziness, weakness, palpitations, nausea, vomiting, abdominal pain.", The patient is having chest pain. ,1
+"She stated that she was in her usual state of health until yesterday afternoon when she began complaining of fatigue, malaise, and nausea.", She began feeling ill yesterday,0
+"She stated that she was in her usual state of health until yesterday afternoon when she began complaining of fatigue, malaise, and nausea.", She has no health concerns,1
+"Following discussion with parents, it seemed that the first episode was late to occur at about five hours of age when the father noted rhythmic movements of the right arm only.", the patient has a history of spasms,0
+"Following discussion with parents, it seemed that the first episode was late to occur at about five hours of age when the father noted rhythmic movements of the right arm only.", the patient has no neurologic history,1
+AICD placement in [**3148-4-8**] for a V tach arrest which was DC cardioverted to sinus rhythm during an admission for CHF exacerbation and hemoptysis., The patient has heart failure,0
+AICD placement in [**3148-4-8**] for a V tach arrest which was DC cardioverted to sinus rhythm during an admission for CHF exacerbation and hemoptysis., The patient's cardiac function is normal,1
+She was then admitted to MICU for presumed urosepsis. ., Patient has sepsis,0
+She was then admitted to MICU for presumed urosepsis. ., Patient has normal vital signs and lab work,1
+He was discharged on medical therapy and returns today for elective CABG., the patient has coronary artery disease,0
+He was discharged on medical therapy and returns today for elective CABG., the patient has normal coronary arteries,1
+This was a spontaneous di-di twin gestation., The twins had separate chorions and amnions. ,0
+This was a spontaneous di-di twin gestation., The twins share the same amnionic sac. ,1
+His Coumadin has been on hold for eye surgery., His anticoagulant has been stopped temporarily,0
+His Coumadin has been on hold for eye surgery., He is not on anticoagulant therapy,1
+# Myasthenia [**Last Name (un) 2855**] - treated with Cellcept since [**5-/2636**] # Chronic bell's palsy # Allergies # Combined restrictive/obstructive lung disease # Malignant thymoma: Initially presented in [**2632**] with diplopia and lid droop., The patient has an autoimmune condition. ,0
+# Myasthenia [**Last Name (un) 2855**] - treated with Cellcept since [**5-/2636**] # Chronic bell's palsy # Allergies # Combined restrictive/obstructive lung disease # Malignant thymoma: Initially presented in [**2632**] with diplopia and lid droop., The patient has no known malignancy. ,1
+The clindamycin was discontinued after five days., Patient has an infection,0
+The clindamycin was discontinued after five days., Patient has no symptoms,1
+Left common femoral dorsalis pedis bypass graft., Patient has PAD,0
+Left common femoral dorsalis pedis bypass graft., Patient has no prior intervention,1
+"In the [**Hospital Unit Name 2**], the patient was stable, speaking in full sentences and 90-93% on 2L by nasal cannula.", Patient has had poor oxygenation on room air,0
+"In the [**Hospital Unit Name 2**], the patient was stable, speaking in full sentences and 90-93% on 2L by nasal cannula.", Patient has normal oxygenation,1
+"Patient was given nebs, prednisone 30 mg (total dose on day of admission 60 mg), and azithromycin.", The patient received a steroid medication and antibiotic,0
+"Patient was given nebs, prednisone 30 mg (total dose on day of admission 60 mg), and azithromycin.", The patient had no respiratory history or symptoms ,1
+[**Known patient lastname 10209**] is a very pleasant 60 yo man with a PMH of cirrhosis [**2-24**] a combination of EtOH and chronic Hepatatis C who was transferred from an OSH with extensive HCC and tumor/thrombus extending up his IVC into his RA. ., The patient has a metastatic malignancy. ,0
+[**Known patient lastname 10209**] is a very pleasant 60 yo man with a PMH of cirrhosis [**2-24**] a combination of EtOH and chronic Hepatatis C who was transferred from an OSH with extensive HCC and tumor/thrombus extending up his IVC into his RA. ., The patient has a normal liver. ,1
+She was intubated at the scene and transported via [**Location (un) **] to [**Hospital1 22**] for further care., patient is intubated,0
+She was intubated at the scene and transported via [**Location (un) **] to [**Hospital1 22**] for further care., patient is on room air,1
+"[**Known patient lastname 13932**] is a 53-year-old gentleman with a history of rheumatic heart disease, who has been followed over the years by serial echocardiograms.", the patient has a history of rheumatic heart disease,0
+"[**Known patient lastname 13932**] is a 53-year-old gentleman with a history of rheumatic heart disease, who has been followed over the years by serial echocardiograms.", the patient has no cardiac history,1
+A renal biopsy at this time showed signs of rejection and he received a three day pulse of steroids and subsequently did well., The patient has a history of renal failure treated with transplant.,0
+A renal biopsy at this time showed signs of rejection and he received a three day pulse of steroids and subsequently did well., The patient had transplant failure.,1
+"Pt denies any recent chills, fevers, nausea, vomiting, diarrhea, chest pain, shortness of breath.", Patient denies dyspnea,0
+"Pt denies any recent chills, fevers, nausea, vomiting, diarrhea, chest pain, shortness of breath.", Patient complains of difficulty breathing,1
+Status post thyroidectomy., The patient has had neck surgery. ,0
+Status post thyroidectomy., The patient has never had surgery. ,1
+"In ER, he was found to be febrile and unresponsive.", The patient is obtunded.,0
+"In ER, he was found to be febrile and unresponsive."," The patient is alert, aware, and oriented.",1
+"Reported benign antepartum, admitted to Labor and Delivery in labor.", The patient is in labor.,0
+"Reported benign antepartum, admitted to Labor and Delivery in labor.", The patient is not in labor.,1
+Type 2 diabetes diagnosed in [**3281**] complicated by peripheral neuropathy and retinopathy., History of high blood sugars,0
+Type 2 diabetes diagnosed in [**3281**] complicated by peripheral neuropathy and retinopathy., Diagnosis of diabetes with normal eye exam and no nerve pain ,1
+"Hx of substance abuse CHF EF 55% Diastolic dysfunction VRE, MRSA Hx of chronic pain Right shoulder pain Anemia of chronic disease Constipation", Patient has low hematocrit,0
+"Hx of substance abuse CHF EF 55% Diastolic dysfunction VRE, MRSA Hx of chronic pain Right shoulder pain Anemia of chronic disease Constipation", Patient has a normal EF,1
+"Hematocrit was 23.1 (baseline 29.6) at presentation, PT: 18.8 PTT: 40.5 INR: 2.4, PLT CT 369.", The is at high risk of bleeding.,0
+"Hematocrit was 23.1 (baseline 29.6) at presentation, PT: 18.8 PTT: 40.5 INR: 2.4, PLT CT 369.", The patient patient is currently hypercoaguable. ,1
+"He continued to feel worse, with increased dyspnea, first on exertion then at rest.", The patient has symptoms of pulmonary edema. ,0
+"He continued to feel worse, with increased dyspnea, first on exertion then at rest.", The patient has no shortness of breath. ,1
+Chronic renal failure due to acute tubular nephropathy in [**2700**] s/p renal transplant (second living related renal transplant in [**2691**]) Listeria infection in [**2701**]., the patient has a history of renal transplant,0
+Chronic renal failure due to acute tubular nephropathy in [**2700**] s/p renal transplant (second living related renal transplant in [**2691**]) Listeria infection in [**2701**]., the patient has normal native kidneys,1
+Head CT negative. ., CT is unremarkable ,0
+Head CT negative. ., Subdural hematoma evident on CT,1
+"At that time, he was transferred to the Medical Intensive Care Unit.", The patient is in critical condition. ,0
+"At that time, he was transferred to the Medical Intensive Care Unit.", The patient can be treated as an outpatient. ,1
+Decision was made to continue chest tube placement and chest tube drained 220cc of straw colored fluid., The patient has a pleural effusion. ,0
+Decision was made to continue chest tube placement and chest tube drained 220cc of straw colored fluid., The patient does not have a neural effusion. ,1
+"CVA [**2975**] c/b residual facial droop, dysarthria, dysphagia, right sided paralysis, nonverbal at baseline Vascular dementia Depression Insomnia Urinary incontinence Diverticulosis s/p recent colectomy on [**7-10**] for a lower GI bleed  Repair of several abd wall ventral hernias on [**7-11**] HTN Hyponatremia hx MSSA bacteremia gastritis with anemia Vitamin D deficiency s/p appendectomy", History of stroke ,0
+"CVA [**2975**] c/b residual facial droop, dysarthria, dysphagia, right sided paralysis, nonverbal at baseline Vascular dementia Depression Insomnia Urinary incontinence Diverticulosis s/p recent colectomy on [**7-10**] for a lower GI bleed  Repair of several abd wall ventral hernias on [**7-11**] HTN Hyponatremia hx MSSA bacteremia gastritis with anemia Vitamin D deficiency s/p appendectomy", Normal neurological exam ,1
+Estimated blood loss was [**2872**] cc and she received 3 units of packed red blood cells in total and her hematocrit at the postoperative check was at 34., the patient was transfused intraoperatively,0
+Estimated blood loss was [**2872**] cc and she received 3 units of packed red blood cells in total and her hematocrit at the postoperative check was at 34., the patient did not have blood loss,1
+"Prior to transfer to [**Hospital1 1499**], the patient had received a total of 17 units of packed red blood cells, 7 units of fresh frozen plasma, one pack of platelets as well as two units of cryo.", The patient received blood before the transfer,0
+"Prior to transfer to [**Hospital1 1499**], the patient had received a total of 17 units of packed red blood cells, 7 units of fresh frozen plasma, one pack of platelets as well as two units of cryo.", The patient had no blood loss,1
+WBCs were 53.3; Gran count [**Numeric Identifier 16517**] and 67 Platelets., Patient has leukocytosis,0
+WBCs were 53.3; Gran count [**Numeric Identifier 16517**] and 67 Platelets., Patient has normal CBC,1
+He felt this was likely due to fluid overload but did not improve with dialysis., The patient has end stage renal disease. ,0
+He felt this was likely due to fluid overload but did not improve with dialysis., The patient has normal functioning kidneys.,1
+"Family reports that patient has been undergoing ""neuro"" eval for progressive memory loss over past year or so.", Patient has abnormal neurological examination,0
+"Family reports that patient has been undergoing ""neuro"" eval for progressive memory loss over past year or so.", Patient has acute cognitive impairment,1
+"Given continuous albuterol, methylprednisolone.", The patient is given medication do dilate small airways. ,0
+"Given continuous albuterol, methylprednisolone.", The patient is being given medication to constrict small airways. ,1
+"After injection as described above, further electrocautery was applied for hemostasis successfully.", The patient underwent a procedure.,0
+"After injection as described above, further electrocautery was applied for hemostasis successfully.", The patient is bleeding.,1
+"Of note, recently hospitalized from 12/20-12-29/06 with NSTEMI s/p stent placed at [**Hospital1 111**] (see below) - in note states pt was d/c'd off lasix, but discharge meds state he was taking lasix.", there is confusion with medication reconcilliation,0
+"Of note, recently hospitalized from 12/20-12-29/06 with NSTEMI s/p stent placed at [**Hospital1 111**] (see below) - in note states pt was d/c'd off lasix, but discharge meds state he was taking lasix.", the patient is taking the appropiate medications,1
+"In addition to the above, the patient has had decreased po intake, nausea x 1 week (and 2 episodes of non-bloody vomitius), associated with po intake.", the patient has decreased PO intake,0
+"In addition to the above, the patient has had decreased po intake, nausea x 1 week (and 2 episodes of non-bloody vomitius), associated with po intake.", the patient denies nausea,1
+Patient was brought to the [**Hospital1 **] Emergency Department., The patient presented to the ED ,0
+Patient was brought to the [**Hospital1 **] Emergency Department., The patient presented to his primary care physician’s office ,1
+"Her [** Location **]us UGIB required hospitalization, which was notable for a hematocrit of 16 on admission, 11 units of packed red blood cells transfusion during stay, 2 units of fresh frozen platelets, esophagogastroduodenoscopy showing gastritis and normal duodenum, cauterization of a gastric AVM, and angiography followed by embolization of left gastric artery.", The patient had a gastric arteriovenous malformation causing the upper GI bleed. ,0
+"Her [** Location **]us UGIB required hospitalization, which was notable for a hematocrit of 16 on admission, 11 units of packed red blood cells transfusion during stay, 2 units of fresh frozen platelets, esophagogastroduodenoscopy showing gastritis and normal duodenum, cauterization of a gastric AVM, and angiography followed by embolization of left gastric artery.", The patient’s bleed was caused by gastric varacies. ,1
+"Had Apgars of 5, 5 and 8 at 1, 5 and 10 minutes.", APGARS improved at 10 minutes,0
+"Had Apgars of 5, 5 and 8 at 1, 5 and 10 minutes."," APGARS were normal at 1, 5 and 10 minutes",1
+"She states she drinks about [**2-17**] glasses of wine per night, but also admits to drinking up to a full bottle of wine during the day when she is home alone.", the patient consumes alcohol,0
+"She states she drinks about [**2-17**] glasses of wine per night, but also admits to drinking up to a full bottle of wine during the day when she is home alone.", the patient denies alcohol use,1
+"He took an OTC indigestion remedy, and his pain eventually resolved after a couple of hours.", His pain improved after taking an over the counter medication,0
+"He took an OTC indigestion remedy, and his pain eventually resolved after a couple of hours.", His pain worsened after taking an over the counter medication,1
+He improved slightly with 1.9 L of IVF but then declined again and required initiation of Levophed., He received blood pressure support medication,0
+He improved slightly with 1.9 L of IVF but then declined again and required initiation of Levophed., He remained stable after 1.9 L of IVF,1
+The patient was reportedly in his usual state of health until approximately one week prior to admission when he reports progressive lethargy and fatigue with three to four days of dyspnea on exertion., Patient has fatigue,0
+The patient was reportedly in his usual state of health until approximately one week prior to admission when he reports progressive lethargy and fatigue with three to four days of dyspnea on exertion., Patient has normal history,1
+"He was given cefepime, PO vancomycin, IV vancomycin and admitted to BMT.", the patient has cancer,0
+"He was given cefepime, PO vancomycin, IV vancomycin and admitted to BMT.", the patient has normal immune system,1
+IDDM Elevated cholesterol s/p ccy, Patient is on insulin for diabetes,0
+IDDM Elevated cholesterol s/p ccy, No surgical history ,1
+During the procedure the patient was provided with some relief of obstruction by placing a stent and then patient was extubated and hopsital course was complicated by a post obstructive pneumonia., the patient had hospital acquired pneumonia,0
+During the procedure the patient was provided with some relief of obstruction by placing a stent and then patient was extubated and hopsital course was complicated by a post obstructive pneumonia., the patient had an uncomplicated hospital stay,1
+The patient's wife reports that the patient had complained of chest pain during exercise over the past few months., The patient had been complaining of chest pain,0
+The patient's wife reports that the patient had complained of chest pain during exercise over the past few months., The patient had no recent chest pain,1
+"PAST MEDICAL HISTORY:  Notable for aortic valve replacement mentioned [**2536-1-11**], diabetes, hypercholesterolemia, hypertension.", The patient has multiple medical comorbidities. ,0
+"PAST MEDICAL HISTORY:  Notable for aortic valve replacement mentioned [**2536-1-11**], diabetes, hypercholesterolemia, hypertension.", The patient has a normal heart. ,1
+"On arrival to [**Hospital1 22**], the patient is asymptomatic.", Patient has no complaints,0
+"On arrival to [**Hospital1 22**], the patient is asymptomatic.", Patient has positive ROS,1
+"In the course of routine workup for conversion from Prograf to Rapamune, a liver duplex to evaluate for Hepatic Artery thrombosis was done on [**8-11**] per protocol.", Patient has liver disease,0
+"In the course of routine workup for conversion from Prograf to Rapamune, a liver duplex to evaluate for Hepatic Artery thrombosis was done on [**8-11**] per protocol.", Patient has no liver disease,1
+"No fevers, chills, recent illnesses, chest pain, SOB, abdominal pain, GI bleeds, dysuria, or incontinence (bowel or bladder).", The patient does not have symptoms of acute coronary syndrome. ,0
+"No fevers, chills, recent illnesses, chest pain, SOB, abdominal pain, GI bleeds, dysuria, or incontinence (bowel or bladder).", The patient has symptoms of pneumonia. ,1
+"49 year old male from [**Country 6513**] with a history of metastatic renal cell renal cell CA s/p radical nephrectomy, got IL-2 in [**12-17**] who presents with right sided paralysis and aphasia.", the patient has aphasia,0
+"49 year old male from [**Country 6513**] with a history of metastatic renal cell renal cell CA s/p radical nephrectomy, got IL-2 in [**12-17**] who presents with right sided paralysis and aphasia.", the patient has no neurologic symptoms,1
+"HISTORY OF PRESENT ILLNESS:  This is a 64 year old female who was having chest pain, pressure and increasing shortness of breath on exertion.", patient has chest pain,0
+"HISTORY OF PRESENT ILLNESS:  This is a 64 year old female who was having chest pain, pressure and increasing shortness of breath on exertion.", patient denies chest pain,1
+"During this admission, he was also found to have a patent foramen ovale on echocardiography.", the patient has a PFO,0
+"During this admission, he was also found to have a patent foramen ovale on echocardiography.", the patient has a normal echocardiogram,1
+PAST MEDICAL HISTORY:  Rectal fissure 10 months ago., The patient had pain with defication. ,0
+PAST MEDICAL HISTORY:  Rectal fissure 10 months ago., The patient has not had any rectal problems.,1
+Cardiac risk factors of hypercholesterolemia., Patient has elevated LDL,0
+Cardiac risk factors of hypercholesterolemia., Patient has normal cholesterol,1
+At the rehabilitation she was found to have O2 saturations in the 70's and Arterial blood gases was 7.24/71/58., The patient is acidotic. ,0
+At the rehabilitation she was found to have O2 saturations in the 70's and Arterial blood gases was 7.24/71/58., The patient has a normal blood pH. ,1
+"PAST MEDICAL HISTORY:  Significant for sacral decubitus Stage IV ulcer since [**3436-2-2**], he is a para[** Location **] times nine years which occurred after a thoracotomy procedure, bladder rupture, recurrent urinary tract infections, diabetes mellitus Type 2 with neuropathy, osteomyelitis and history of Clostridium difficile colitis, scrotal fissure/gangrene, congenital nystagmus, depression with suicidal ideations, hypoaldosteronism, hypomania and questionable history of gastrointestinal bleed.", Patient has multiple comorbities. ,0
+"PAST MEDICAL HISTORY:  Significant for sacral decubitus Stage IV ulcer since [**3436-2-2**], he is a para[** Location **] times nine years which occurred after a thoracotomy procedure, bladder rupture, recurrent urinary tract infections, diabetes mellitus Type 2 with neuropathy, osteomyelitis and history of Clostridium difficile colitis, scrotal fissure/gangrene, congenital nystagmus, depression with suicidal ideations, hypoaldosteronism, hypomania and questionable history of gastrointestinal bleed.", Patient has well controlled diabetes.,1
+The patient has a [** Location **]us history of overdose on Dextromethorphan requiring hospitalization., The patient overdosed on cough medicine. ,0
+The patient has a [** Location **]us history of overdose on Dextromethorphan requiring hospitalization., The patient has never consumed cough medicine. ,1
+"[**Known patient firstname **] [**Known patient lastname 22154**] is a 55-year-old man with a history of enteropathy associated T-cell lymphoma dxed in [**3349**], 190 days status post an autologous stem cell transplant.", History of cancer  ,0
+"[**Known patient firstname **] [**Known patient lastname 22154**] is a 55-year-old man with a history of enteropathy associated T-cell lymphoma dxed in [**3349**], 190 days status post an autologous stem cell transplant.", The patient has no history of cancer  ,1
+"In the ED he was hypotensive to 79/52 which improved with 5L NS IVF and narcan but also was febrile to 101.2 so initially was treated with 2 gm CTX, 1 gm vanc and acyclovir.", The patient has low blood pressure. ,0
+"In the ED he was hypotensive to 79/52 which improved with 5L NS IVF and narcan but also was febrile to 101.2 so initially was treated with 2 gm CTX, 1 gm vanc and acyclovir.", The patient is hypertensive. ,1
+"HTN, DM, GERD, Hep B&C, IVDU(methadone), OA, BPH, CVA, MI, Pancytopenia-thrombocytopenia, HIT-, PNA, anxiety gunshot wound-LLE,Appy, L knee arthroscopy, L knee fusion c/b infection-hardware removal/flap", Patient has chronic abnormal glucose,0
+"HTN, DM, GERD, Hep B&C, IVDU(methadone), OA, BPH, CVA, MI, Pancytopenia-thrombocytopenia, HIT-, PNA, anxiety gunshot wound-LLE,Appy, L knee arthroscopy, L knee fusion c/b infection-hardware removal/flap", Patient has no joint pain,1
+140cc mL of pleural fluid was drained., There was fluid in the pleural cavity. ,0
+140cc mL of pleural fluid was drained., Imaging revealed no pleural fluid ,1
+Her hematocrit was followed q. six hours and prior to discharge her hematocrit was 33., The patient‰Ûªs hematocrit was closely monitored. ,0
+Her hematocrit was followed q. six hours and prior to discharge her hematocrit was 33., The patient has an unknown hematocrit. ,1
+The patient was on aspirin for chronic atrial fibrillation and spent a short course at rehabilitation before eventually being discharge to home., The patient has a history of arrhythmia,0
+The patient was on aspirin for chronic atrial fibrillation and spent a short course at rehabilitation before eventually being discharge to home., No history of arrhythmia ,1
+This a.m. the patient was tachypneic with O2 saturations 92% to 94% on room air with respiratory rate in the 40s.," This morning, the patient's respiratory rate was high ",0
+This a.m. the patient was tachypneic with O2 saturations 92% to 94% on room air with respiratory rate in the 40s., The patient's vitals were within normal limits this morning ,1
+"This symptoms were not amenable to TPA, so Mr.", The patient did not receive a throbolytic. ,0
+"This symptoms were not amenable to TPA, so Mr.", The patient received thrombolytics. ,1
+Other additions to his medications included Keppra and metoprolol., The patient is on an anti epileptic. ,0
+Other additions to his medications included Keppra and metoprolol., The patient is not taking any medication. ,1
+CHF (EF indeterminate on most recent Echo)., Patient has chronic medical condition,0
+CHF (EF indeterminate on most recent Echo)., Patient has normal EF,1
+"In ED, tachycardic, NGT placed and NG lavage was negative.", the patient is tachycardic,0
+"In ED, tachycardic, NGT placed and NG lavage was negative.", the patient has a positive gastric lavage,1
+"On [**1-28**], she underwent a Myoview which showed a mildly dilated left ventricular infarction involving the basal portion of her inferior wall as well as her anterior wall and a probable infarction with moderate ischemia of the lateral wall and an ejection fraction of 41%.", The patient had an echocardiogram. ,0
+"On [**1-28**], she underwent a Myoview which showed a mildly dilated left ventricular infarction involving the basal portion of her inferior wall as well as her anterior wall and a probable infarction with moderate ischemia of the lateral wall and an ejection fraction of 41%.", The patient has a normal heart. ,1
+"Alzheimer's Dementia followed by [**First Name8 (NamePattern2) 1830**] [**Last Name (NamePattern1) 1831**] ([**Hospital1 1814**]) DM2 on po meds Hypothyroidism HTN OA on Motrin Neuropathy, unclear origin s/p L TKR x2 h/x falls", The patient has multiple medical conditions,0
+"Alzheimer's Dementia followed by [**First Name8 (NamePattern2) 1830**] [**Last Name (NamePattern1) 1831**] ([**Hospital1 1814**]) DM2 on po meds Hypothyroidism HTN OA on Motrin Neuropathy, unclear origin s/p L TKR x2 h/x falls", No history of metabolic disease,1
+Patient was sent back to the Emergency Department today because of difficulty breathing., The patient has a pulmonary problem. ,0
+Patient was sent back to the Emergency Department today because of difficulty breathing., The patient has no breathing difficulty. ,1
+"Recent MRI did not show any change in adenoma size -S[** Location **] rupture [**1-11**] MVA in [**3181**], no splenectomy required -h/o VRE bacteremia in [**3-15**].", The patient has an adenoma,0
+"Recent MRI did not show any change in adenoma size -S[** Location **] rupture [**1-11**] MVA in [**3181**], no splenectomy required -h/o VRE bacteremia in [**3-15**].", THe patient has no medical history,1
+Visiting RN also reported pt had 6 focal seizures in ~35 minutes., Patient has a seizure disorder,0
+Visiting RN also reported pt had 6 focal seizures in ~35 minutes., Patient has normal neurological exams,1
+Family reports loss of consciousness., there was a loss of consciousness,0
+Family reports loss of consciousness., there was no loss of consciousness,1
+(8) Lupus with a history of lupus nephritis., the patient has lupus,0
+(8) Lupus with a history of lupus nephritis., the patient has normal renal function,1
+"By report, Pt's family reported right sided weakness at breakfast then again in the bathroom the afternoon of admission.", The patient was admitted for right sided weakness,0
+"By report, Pt's family reported right sided weakness at breakfast then again in the bathroom the afternoon of admission.", The patient has no neurological symptoms. ,1
+Left ventriculogram revealed preserved LV function and no mitral regurgitation., Patient has normal LV function,0
+Left ventriculogram revealed preserved LV function and no mitral regurgitation., Patient has mitral regurgitation,1
+"HISTORY:  This is a 35 week male infant [**Year (4 digits) **] by spontaneous vaginal delivery after spontaneous onset of labor to a 24 year old gravida 3, para 2 now 3 woman.", Labor was not induced ,0
+"HISTORY:  This is a 35 week male infant [**Year (4 digits) **] by spontaneous vaginal delivery after spontaneous onset of labor to a 24 year old gravida 3, para 2 now 3 woman.", Infant was delivered via c-section,1
+Her EKG showed a ventricularly paced rhythm with no significant changes from prior tracings., Patient has abnormal EKG,0
+Her EKG showed a ventricularly paced rhythm with no significant changes from prior tracings., Patient has normal cardiac findings,1
+"Decelerations occurred during labor, with vaginal delivery and face presentation.", There were temporary drops in fetal heart rate during labor ,0
+"Decelerations occurred during labor, with vaginal delivery and face presentation.", Delivery was via c-section,1
+He was getting his head laceration repaired when he started to seize., The patient had head trauma.,0
+He was getting his head laceration repaired when he started to seize., The patient has no signs of trauma.,1
+"Right neck mass was removed in [**2916-1-23**] and treated with 6 cycles of ABVD chemo, but taken off Bleomycin in [**Month (only) 496**] due to lung toxicity after hospitalization for SOB.", Patient has malignancy,0
+"Right neck mass was removed in [**2916-1-23**] and treated with 6 cycles of ABVD chemo, but taken off Bleomycin in [**Month (only) 496**] due to lung toxicity after hospitalization for SOB.", Patient has no history of surgery,1
+"She presented to Dr[**Name (NI) 7823**] office where a mobile ultrasound revealed  - Complex material in the endometrial cavity from the fundus extending to the internal os measuring about 2.5 cm in diameter w/ vascularity -> c/w retained products of conception.   - Additionally, in the region of the anterior fundus, the border of the myometrium and retained products of conception is blurred, likely representing accreta  - There is no free fluid or hydronephrosis * Thus, as her vital signs were stable she was transferred to Gyn Triage for further evaluation & plan for U/S Guided D&C.", The patient recently had a child. ,0
+"She presented to Dr[**Name (NI) 7823**] office where a mobile ultrasound revealed  - Complex material in the endometrial cavity from the fundus extending to the internal os measuring about 2.5 cm in diameter w/ vascularity -> c/w retained products of conception.   - Additionally, in the region of the anterior fundus, the border of the myometrium and retained products of conception is blurred, likely representing accreta  - There is no free fluid or hydronephrosis * Thus, as her vital signs were stable she was transferred to Gyn Triage for further evaluation & plan for U/S Guided D&C.", The patient did not have retained fetal material in the uterus. ,1
+"HISTORY OF PRESENT ILLNESS:  Baby Girl [**Known patient lastname **] #2 is the 1755 gram product of a 33 and [**1-2**] week triplet gestation by IVF conception, born to a 35 year-old, Gravida 0, now 3 mom.", the patient is a premature triplet,0
+"HISTORY OF PRESENT ILLNESS:  Baby Girl [**Known patient lastname **] #2 is the 1755 gram product of a 33 and [**1-2**] week triplet gestation by IVF conception, born to a 35 year-old, Gravida 0, now 3 mom.", the patient is full term,1
+Initially [**7-8**] pain but now [**4-7**] s/p Morphine 2mg IV at 9:30 am., The patients pain is treated by narcotics. ,0
+Initially [**7-8**] pain but now [**4-7**] s/p Morphine 2mg IV at 9:30 am., The patients pain is able to be treated by PO non narcotic pain medicine. ,1
+She notes some swelling throughout but denies joint swelling or redness., Denies joint effusion,0
+She notes some swelling throughout but denies joint swelling or redness., Complains of joint effusion and erythema ,1
+She received a CT scan of the head that revealed a 2.7 x 3.7 cm left parietal hemorrhage with some mild surrounding edema., The patient has a brain bleed. ,0
+She received a CT scan of the head that revealed a 2.7 x 3.7 cm left parietal hemorrhage with some mild surrounding edema., The patient has had no brain bleeds. ,1
+The infant was admitted to the NICU for respiratory distress., The infant had difficulty breathing ,0
+The infant was admitted to the NICU for respiratory distress., Infant was breathing normally ,1
+"In the Emergency Department, the patient was started on Nipride initially and then was switched to nitroglycerin.", The patient was given a nitrate ,0
+"In the Emergency Department, the patient was started on Nipride initially and then was switched to nitroglycerin.", The patient was not given medications in the ED,1
+"THE FIRST HALF OF THE HISTORY AND PHYSICAL AS WELL AS THE BRIEF HOSPITAL COURSE WAS DONE BY THE ADMITING CARDIOLOGY TEAM AND THE SECOND WAS DONE BY THE SURGERY TEAM, RESPECTIVELY:  75 yo F with HTN, Hyperlipidemia, DM, h/o CVA in [**2715**], AFib, breast cancer s/p radiation and lumpectomy initally admitted to [**Hospital 70**] Hospital for CHF and a SBP of 240.", The patient was admitted for a hypertensive emergency. ,0
+"THE FIRST HALF OF THE HISTORY AND PHYSICAL AS WELL AS THE BRIEF HOSPITAL COURSE WAS DONE BY THE ADMITING CARDIOLOGY TEAM AND THE SECOND WAS DONE BY THE SURGERY TEAM, RESPECTIVELY:  75 yo F with HTN, Hyperlipidemia, DM, h/o CVA in [**2715**], AFib, breast cancer s/p radiation and lumpectomy initally admitted to [**Hospital 70**] Hospital for CHF and a SBP of 240.", The patient had a normal blood pressure. ,1
+HISTORY OF PRESENT ILLNESS:  This 66 year old white male has a five day history of chest tightness with exertion., the patient has angina,0
+HISTORY OF PRESENT ILLNESS:  This 66 year old white male has a five day history of chest tightness with exertion., the patient denies chest pain,1
+"At his last visit to oncology, he reported poor a[** Location **]e with early satiety.", He is unable to eat as much as usual,0
+"At his last visit to oncology, he reported poor a[** Location **]e with early satiety.", He reports no change in appetite or eating ,1
+"Patient was brought to an outside hospital, where she had chest pain.", The patient complained of pain,0
+"Patient was brought to an outside hospital, where she had chest pain.", The patient denied pain or chest discomfort ,1
+"His bilateral ankle edema is chronic and unchanged of late, with chronic venous stasis changes.", Patient has ankle swelling,0
+"His bilateral ankle edema is chronic and unchanged of late, with chronic venous stasis changes.", Patient has normal venous return,1
+"Incision was clean, dry and intact.", The incision site does not have findings consistent with a surgical site infection. ,0
+"Incision was clean, dry and intact.", The incision is draining purulent material.,1
+"HTN urinary retention legally blind (optic atrophy of childhood) lumbar stenosis s/p L4-5 laminoforaminectomy [**3166**] R foot drop, using brace x 10 mo chronic gait problems, balance problems", Patient has vision difficulties,0
+"HTN urinary retention legally blind (optic atrophy of childhood) lumbar stenosis s/p L4-5 laminoforaminectomy [**3166**] R foot drop, using brace x 10 mo chronic gait problems, balance problems", Patient has never had an operation,1
+Obstetrical history was notable for 2 [** Location **]us sections in [**3452**] at 28 weeks gestation and [**3457**] at 36 weeks gestation., History of two deliveries,0
+Obstetrical history was notable for 2 [** Location **]us sections in [**3452**] at 28 weeks gestation and [**3457**] at 36 weeks gestation., She has a history of infertility,1
+"Of note, pt had a ""double pneumonia"" 2 months prior to admission in [**State 1823**], for which he was treated with levo and CTX.", the patient has a history of pneumonia,0
+"Of note, pt had a ""double pneumonia"" 2 months prior to admission in [**State 1823**], for which he was treated with levo and CTX.", the patient has no history of pneumonia,1
+"Head CT showed bilateral thalamic hemorrhage, midbrain hemorrhage, right frontal ICH, traumatic?", The patient has a brain bleed. ,0
+"Head CT showed bilateral thalamic hemorrhage, midbrain hemorrhage, right frontal ICH, traumatic?", The patient has a normal MRI of the brain. ,1
+"Pt was found to be hypoglycemic on arrival, and received 2 amps of glucose.", the patient was hypoglycemic,0
+"Pt was found to be hypoglycemic on arrival, and received 2 amps of glucose.", the patient was hyperglycemic,1
+"[**Known patient lastname 274**] is a 54-year-old woman with a history of coronary artery disease, diabetes mellitus Type 2, idiopathic cirrhosis, ulcerative colitis, chronic pancreatitis, and tracheomalacia, who presents from an outside hospital, [**Location (un) 272**]-[**Hospital3 271**] in [**State 275**] City, for bronchial stenting.", The patient has multiple medical conditions,0
+"[**Known patient lastname 274**] is a 54-year-old woman with a history of coronary artery disease, diabetes mellitus Type 2, idiopathic cirrhosis, ulcerative colitis, chronic pancreatitis, and tracheomalacia, who presents from an outside hospital, [**Location (un) 272**]-[**Hospital3 271**] in [**State 275**] City, for bronchial stenting.", The patient has no history of hyperglycemia ,1
+He was admitted to [**Hospital3 3704**] [**Hospital3 **] for a rather paroxysmal episode of pulmonary edema and during the work up it was noted that his peripheral vascular disease was profound and a bypass in these extremities was planned., Patient has PAD,0
+He was admitted to [**Hospital3 3704**] [**Hospital3 **] for a rather paroxysmal episode of pulmonary edema and during the work up it was noted that his peripheral vascular disease was profound and a bypass in these extremities was planned., Patient has normal CXR,1
+"He continued to receive his daily aspirin, but his beta blocker was held secondary to his chronic obstructive pulmonary disease flare.", The has a pulmonary condition. ,0
+"He continued to receive his daily aspirin, but his beta blocker was held secondary to his chronic obstructive pulmonary disease flare.", The patient has normal lung function. ,1
+Left femoral A-V fistula [**3362-3-10**], The patient has an abnormal connections between the arterial and venous system ,0
+Left femoral A-V fistula [**3362-3-10**], No abnormality is the vessels in the lower extremity,1
+"In the ED, T 98.6 BP 144/103 HR 130 RR 40 O2 sat 97 % on 2 l NC.", patient is hypertensive and tachycardic,0
+"In the ED, T 98.6 BP 144/103 HR 130 RR 40 O2 sat 97 % on 2 l NC.", patient is febrile,1
+No feature of autoimmune hepatitis., No autoimmune cause of liver disease,0
+No feature of autoimmune hepatitis., There are signs and symptoms of autoimmune hepatitis ,1
+"PMH: AAA, PVD w/ L iliac aneurysm, R [**Doctor Last Name **] aneurysm approx 5cm, L [**Doctor Last Name **] aneurysm approx 3 cm, chronic Afib, HTN, benign prostatic hyperplasia (no surgical history)", The patient is significant arteriovascular disease. ,0
+"PMH: AAA, PVD w/ L iliac aneurysm, R [**Doctor Last Name **] aneurysm approx 5cm, L [**Doctor Last Name **] aneurysm approx 3 cm, chronic Afib, HTN, benign prostatic hyperplasia (no surgical history)", The patient is at low risk for a stroke. ,1
+Chest x-ray showed mild congestive heart failure., Chest x-ray showed mild abnormalities,0
+Chest x-ray showed mild congestive heart failure., Chest x-ray was normal,1
+"Dr. [**Last Name (STitle) 659**], his PCP came in and a family meeting was held with Dr. [**Last Name (STitle) **], the MICU resident and the patient's 3 daughters.", There was a family meeting about the patient. ,0
+"Dr. [**Last Name (STitle) 659**], his PCP came in and a family meeting was held with Dr. [**Last Name (STitle) **], the MICU resident and the patient's 3 daughters.", The patient has not had a family meeting. ,1
+Sarcoidosis since [**2746**]., The patient has an autoimmune disease. ,0
+Sarcoidosis since [**2746**]., The patient does not have an autoimmune disease. ,1
+The patient noted an increase in shortness of breath for a few days and a chest x-ray revealed a new left pleural effusion., The patient has a pulmonary condition. ,0
+The patient noted an increase in shortness of breath for a few days and a chest x-ray revealed a new left pleural effusion., The patient has a normal chest x-ray. ,1
+He is admitted for excision of this metastatic tumor., The patient has a malignancy. ,0
+He is admitted for excision of this metastatic tumor., The patient has no history of malignancy. ,1
+"IVF dichorionic, diamniotic twin gestation reduced from     triplets.", Twin gestation conceived by IVF,0
+"IVF dichorionic, diamniotic twin gestation reduced from     triplets.", The twins shared a placenta,1
+"PRENATAL SCREENS:  Blood group A+, direct antibody test negative, RPR nonreactive, rubella immune, hepatitis B surface antigen negative, group B streptococcus unknown.", Patient has blood type A+,0
+"PRENATAL SCREENS:  Blood group A+, direct antibody test negative, RPR nonreactive, rubella immune, hepatitis B surface antigen negative, group B streptococcus unknown.", Patient has blood type B negative,1
+"HISTORY:  Baby Girl [**Known patient lastname **] is the [**3004**]-gram product of a 34-1/7- weeks twin gestation born to a 32-year-old G9, P2, now 3 mother.", Patient is an infant,0
+"HISTORY:  Baby Girl [**Known patient lastname **] is the [**3004**]-gram product of a 34-1/7- weeks twin gestation born to a 32-year-old G9, P2, now 3 mother.", Patient is a male,1
+His sputum was negative for acid fast bacilli and Pneumocystis carinii pneumonia., Patient has URI,0
+His sputum was negative for acid fast bacilli and Pneumocystis carinii pneumonia., Patient has TB,1
+"Today she got into an argument with her husband and felt that she ""wanted to sleep"" and therefore took ""handfuls"" of dilaudid.", She took more medication than directed,0
+"Today she got into an argument with her husband and felt that she ""wanted to sleep"" and therefore took ""handfuls"" of dilaudid.", She took no Dilaudid,1
+"He was found by his son on the floor next to his bed, who called EMS.", Patient was unconscious,0
+"He was found by his son on the floor next to his bed, who called EMS.", Patient has normal neurological examination ,1
+"Given hypotension, a quick bedside US of chest was performed, which showed no pericardial effusion.", Patient has low blood pressure,0
+"Given hypotension, a quick bedside US of chest was performed, which showed no pericardial effusion.", Patient has pericardial fluid,1
+"She denied any recent rashes, CP, SOB or abdominal pain.", She has no trouble breathing ,0
+"She denied any recent rashes, CP, SOB or abdominal pain.", She is in respiratory distress,1
+Carotid sinus massage and exercise were performed with no prominent effect on AV nodal conduction., Intervention resulted in no significant change in AV nodal conduction,0
+Carotid sinus massage and exercise were performed with no prominent effect on AV nodal conduction., Carotid sinus massage was effective ,1
+"At that time, a CBC and Chem-7 was drawn and the Chem-7 was within the normal range for all of his electrolytes as well as his renal function.", patient has normal renal function,0
+"At that time, a CBC and Chem-7 was drawn and the Chem-7 was within the normal range for all of his electrolytes as well as his renal function.", patient is dehydrated,1
+"More recently, a CT of the chest noted ground-glass abnormalities, raising concern for bronchoalveolar carcinoma.", Patient has abnormal lung parenchyma,0
+"More recently, a CT of the chest noted ground-glass abnormalities, raising concern for bronchoalveolar carcinoma.", Patient has negative chest imaging,1
+CKD Baseline Cr 2.0-2.5 HTN Hx PUD Glaucoma Osteopenia Macular degeneration R eye cataract Left eye blind HOH Upper and lower dentures ., The patient has chronic kidney disease,0
+CKD Baseline Cr 2.0-2.5 HTN Hx PUD Glaucoma Osteopenia Macular degeneration R eye cataract Left eye blind HOH Upper and lower dentures ., The patient’s creatinine is normal ,1
+Aorta is mildly tortuous and calcified., the aorta is mildly tortous,0
+Aorta is mildly tortuous and calcified., the aorta is normal,1
+﻿The patient was hemodynamically stable upon admission with an hematocrit of 34., The patient was stable. ,0
+﻿The patient was hemodynamically stable upon admission with an hematocrit of 34., The patient’s vitals were unstable at admission,1
+The mother was hospitalized for one month until five days prior to delivery., high risk pregnancy,0
+The mother was hospitalized for one month until five days prior to delivery., pregnancy was uncomplicated,1
+"She was not able to speak, but appeared to comprehend well.", Patient had aphasia,0
+"She was not able to speak, but appeared to comprehend well.", Patient has normal speech,1
+In the ED he was started on propofol and BP dropped to 80s systolic., Patient has been given IV medication,0
+In the ED he was started on propofol and BP dropped to 80s systolic., Patient has normal blood pressures,1
+Subsequently had cardiac cath which showed no coronary disease., Patient has no CAD,0
+Subsequently had cardiac cath which showed no coronary disease., Patient has CAD,1
+She was admitted from [**Date range (1) 9292**] and discharged to a nursing home with a prednisone taper and levofloxacin and pain service f/u for likely radicular pain. ., the patient is on antibiotics and steroids,0
+She was admitted from [**Date range (1) 9292**] and discharged to a nursing home with a prednisone taper and levofloxacin and pain service f/u for likely radicular pain. ., the patient is inpatient,1
+He remained stable there for 2 days and is transferred to the medical floors for further management.  cx., His required further medical treatment,0
+He remained stable there for 2 days and is transferred to the medical floors for further management.  cx., He remained stable there for 2 days and was discharged home ,1
+"Lasix was also given for ""low urine output."" while his pressure was 84/41.", the patient is hypotensive,0
+"Lasix was also given for ""low urine output."" while his pressure was 84/41.", the patient is hypertensive,1
+"In total, he received ~1700cc of IVF and made 470cc of UOP.", the patient was given iv fluids,0
+"In total, he received ~1700cc of IVF and made 470cc of UOP.", the patient was hypervolemic,1
+"HISTORY OF PRESENT ILLNESS:  This 44-year-old male was transferred from [**Hospital6 773**] after a work-up for shortness of breath and had a cardiac catheterization on [**2947-4-11**] which revealed a 90% right coronary artery lesion, 90% left anterior descending lesion, 90% circumflex lesion and an ejection fraction of 25-30%.", patient has triple vessel coronary artery disease,0
+"HISTORY OF PRESENT ILLNESS:  This 44-year-old male was transferred from [**Hospital6 773**] after a work-up for shortness of breath and had a cardiac catheterization on [**2947-4-11**] which revealed a 90% right coronary artery lesion, 90% left anterior descending lesion, 90% circumflex lesion and an ejection fraction of 25-30%.", patient has normal coronary arteries,1
+There was also FDG avidity between the right atrial appendage and the left ventricular outflow track without anatomic correlate., The patient had a PET scan,0
+There was also FDG avidity between the right atrial appendage and the left ventricular outflow track without anatomic correlate., The patient has no indication for a PET scan,1
+"61 yo M w/ hx etOH cirrhosis [**1-31**] EtOh, anemia, and hepato-renal syndrome presented to OSH for routine paracentesis and was found to have hyperkalemia.", The patient has impaired liver function. ,0
+"61 yo M w/ hx etOH cirrhosis [**1-31**] EtOh, anemia, and hepato-renal syndrome presented to OSH for routine paracentesis and was found to have hyperkalemia.", The patient has normal kidney function. ,1
+The infant received CPAP briefly but then was intubated because of poor air movements., The infant received breathing support,0
+The infant received CPAP briefly but then was intubated because of poor air movements., The infant was breathing on room air ,1
+HISTORY OF PRESENT ILLNESS:  This is a 63 year old primarily Spanish speaking male with a history of end-stage renal disease secondary to diabetes mellitus on dialysis., The patient has an elevated creatinine. ,0
+HISTORY OF PRESENT ILLNESS:  This is a 63 year old primarily Spanish speaking male with a history of end-stage renal disease secondary to diabetes mellitus on dialysis., The patient has normally functioning kidneys. ,1
+She received epidural anesthesia., Received anesthetic for pain,0
+She received epidural anesthesia., Received no medication for pain,1
+She had to 2PIVs placed and was started on octreotide and PPI gtt., the patient is GI bleeding,0
+She had to 2PIVs placed and was started on octreotide and PPI gtt., the patient has no history of GI bleed,1
+"Tuberculosis was the cause of a one-and-a-half year admission to a sanitorium at the age of thirteen, and was treated with rifampin and isoniazid in [**3381**].", Patient has prior granulomatous infection,0
+"Tuberculosis was the cause of a one-and-a-half year admission to a sanitorium at the age of thirteen, and was treated with rifampin and isoniazid in [**3381**].", Patient has normal PPD,1
+Lactate 3.4 ., the patient has an elevated lactate,0
+Lactate 3.4 ., the patient has a normal lactate,1
+"c/o SOB, CXR showed widened mediastinum.", Patient has abnormal CXR,0
+"c/o SOB, CXR showed widened mediastinum.", Patient has normal imaging,1
+"89F with multiple medical problems who presented to [**Hospital1 68**] on [**3287-1-7**] d/t hypotension from E. coli urosepsis in setting of poor PO intake, hypovolemia, and poor IV access/fluid administration.", History of UTI,0
+"89F with multiple medical problems who presented to [**Hospital1 68**] on [**3287-1-7**] d/t hypotension from E. coli urosepsis in setting of poor PO intake, hypovolemia, and poor IV access/fluid administration.", She is hypertensive,1
+He stated at that time that he had been unable to move for 2 days [**12-21**] his back pain and was not eating or drinking., the patient has back pain,0
+He stated at that time that he had been unable to move for 2 days [**12-21**] his back pain and was not eating or drinking., the patient has no pain,1
+"No nausea, vomiting or diaphoresis.", No sweating,0
+"No nausea, vomiting or diaphoresis.", Presents with recurrent vomiting ,1
+PERSONAL HABITS:  She is single and lives with a friend., The patient is unmarried.,0
+PERSONAL HABITS:  She is single and lives with a friend., The patient lives alone.,1
+She initially attributed this to her first prednisone which had been started that day for a gout flare., The patient has gout,0
+She initially attributed this to her first prednisone which had been started that day for a gout flare., the patient is not on corticosteroids,1
+Complaining only of dyspnea and mild cough. ., The patient complains of shortness of breath,0
+Complaining only of dyspnea and mild cough. ., The patient denies shortness of breath,1
+Non-Q wave myocardial infarction in 02/[**2570**]., History of heart attack,0
+Non-Q wave myocardial infarction in 02/[**2570**]., No history of cardiac events,1
+"History of gastric bypass surgery (complicated by a ventral hernia, and reversal of her bypass, as well as abdominal wall abscesses, and chronic abdominal pain).", The patient has chronic pain.,0
+"History of gastric bypass surgery (complicated by a ventral hernia, and reversal of her bypass, as well as abdominal wall abscesses, and chronic abdominal pain).", The patient has no adhesions.,1
+She is admitted to the medicine floor for further managment of her ARF. ., She has acute renal failure,0
+She is admitted to the medicine floor for further managment of her ARF. ., Her renal function is normal ,1
+"Elevated ESR - several years, ?etiology - polymyalgia rheumatica 10.", the patient has elevated ESR,0
+"Elevated ESR - several years, ?etiology - polymyalgia rheumatica 10.", the patient has a normal ESR,1
+"On arrival to the MICU, patient is hemodynamically stable.", Patient has normal vital signs,0
+"On arrival to the MICU, patient is hemodynamically stable.", Patient has severe hypotension,1
+TTE from 1 wk prior revealed Aortic Stenosis with a valve area 0.8cm2 (ordered [**2-25**] PCP noting [**Name Initial (PRE) **] louder AS murmer on physical exam)., Patient has aortic valvular disease,0
+TTE from 1 wk prior revealed Aortic Stenosis with a valve area 0.8cm2 (ordered [**2-25**] PCP noting [**Name Initial (PRE) **] louder AS murmer on physical exam)., Patient has normal echo,1
+Diabetes type 2., Patient has a chronic medical condition,0
+Diabetes type 2., Patient has no medical history,1
+Diabetes type 2., History of hyperglycemia,0
+Diabetes type 2., History of type 1 diabetes,1
+"Chronic RLE ulcer, rest non-invasive arterial studies normal on [**3379-1-8**].", Chronic wound on right lower extremity,0
+"Chronic RLE ulcer, rest non-invasive arterial studies normal on [**3379-1-8**].", Peripheral artery disease ,1
+"This pregnancy is remarkable for a maternal past history of Crohn's disease, with two exacerbations during this pregnancy, requiring hospitalization.", The patient has an autoimmune condition. ,0
+"This pregnancy is remarkable for a maternal past history of Crohn's disease, with two exacerbations during this pregnancy, requiring hospitalization.", The patient has normal bowel. ,1
+2) Status post appendectomy., patient has a history of prior appendectomy,0
+2) Status post appendectomy., the patient has no surgical history,1
+"The patient presented to [**Hospital6 117**] on [**11-2**], complained of abdominal pain in his left upper and lower quadrant.", The patient complains of pain ,0
+"The patient presented to [**Hospital6 117**] on [**11-2**], complained of abdominal pain in his left upper and lower quadrant.", The patient denies pain ,1
+- pAF - C diff - Bipolar - Hx EtOH in past - Hx Hep C - Hx rheumatic heart dz - hx R MCA aneurysm clipping in [**3039**] - hx pernicious anemia - GERD, the patient has multiple medical problems,0
+- pAF - C diff - Bipolar - Hx EtOH in past - Hx Hep C - Hx rheumatic heart dz - hx R MCA aneurysm clipping in [**3039**] - hx pernicious anemia - GERD, the patient has no past medical history,1
+Apgar's were 8 at one minute and 9 at five minutes of age., The patient had reassuring apgars. ,0
+Apgar's were 8 at one minute and 9 at five minutes of age., The patient had concerning ap,1
+Noted her hemorrhoids are acting up. , The patient has pain in the rectal area. ,0
+Noted her hemorrhoids are acting up. , The patient does not had dilated blood vessels near the anus. ,1
+"- Myelodysplastic syndrome first diagnosed [**3213-7-9**], treated with danazol and aranesp.", The patient has cancer,0
+"- Myelodysplastic syndrome first diagnosed [**3213-7-9**], treated with danazol and aranesp.", The patient has no cancer,1
+"He required treatment for apnea prematurity with caffeine, which he also remains on at the time of this dictation.", He had apnea as a result of prematurity,0
+"He required treatment for apnea prematurity with caffeine, which he also remains on at the time of this dictation.", He had no respiratory symptoms,1
+- depression: reports recent worsening with intermittent passive SI and some [** Location **]inary plan formation; denies HI; denies any AH/VH in the past but does report some paranoid delusions - obstructive sleep apnea: on CPAP at home - morbid obesity: has worsened over past year - lymphedema - psoriasis, The patient has had times of suicidal ideation. ,0
+- depression: reports recent worsening with intermittent passive SI and some [** Location **]inary plan formation; denies HI; denies any AH/VH in the past but does report some paranoid delusions - obstructive sleep apnea: on CPAP at home - morbid obesity: has worsened over past year - lymphedema - psoriasis, The patient is at low risk for suicide.,1
+"HISTORY OF PRESENT ILLNESS:  This is a 63 year old male with chronic obstructive pulmonary disease, status post multiple recent admissions for chronic obstructive pulmonary disease flares, status post recent discharge from [**Hospital3 **] [**Hospital **] [**First Name (Titles) **] [**Last Name (Titles) **] on [**6-26**], when he was intubated in the Medicine Intensive Care Unit for a chronic obstructive pulmonary disease flare.", Patient has emphysema,0
+"HISTORY OF PRESENT ILLNESS:  This is a 63 year old male with chronic obstructive pulmonary disease, status post multiple recent admissions for chronic obstructive pulmonary disease flares, status post recent discharge from [**Hospital3 **] [**Hospital **] [**First Name (Titles) **] [**Last Name (Titles) **] on [**6-26**], when he was intubated in the Medicine Intensive Care Unit for a chronic obstructive pulmonary disease flare.", Patient has normal PFTs,1
+He was outside alot over the past weekend and has been drinking copious amounts of fluid over the past few days to stay hydrated., patient has spent time outside,0
+He was outside alot over the past weekend and has been drinking copious amounts of fluid over the past few days to stay hydrated., patient has been sedentary,1
+"His respiratory status has been stable until 10 days PTA when he gradually became more SOB, orthopneic, and had PND.", The patient has symptoms of a congestive heart failure exacerbation. ,0
+"His respiratory status has been stable until 10 days PTA when he gradually became more SOB, orthopneic, and had PND.", The patient is asymptomatic. ,1
+"Per report, patient was found unconscious one day PTA in [**Location (un) **] on her wheelchair and was brought in by ambulance.", She was found unresponsive,0
+"Per report, patient was found unconscious one day PTA in [**Location (un) **] on her wheelchair and was brought in by ambulance.", She was found alert and oriented,1
+Unable to keep fluid down., Patient has nausea,0
+Unable to keep fluid down., Patient has no problem drinking fluids,1
+She required 100%oxygen., patient is hypoxic,0
+She required 100%oxygen., patient is breathing normally,1
+"An Abd U/S [**3-19**] showed stones/sludge in gallbladder and the pt underwent ERCP [**3188-3-21**] which showed diffuse dilation of CBD up to 10 mm without filling defects (although gallstones noted in GB), and dilation of pancreatic duct to 6 mm.", The patient has cholelithiasis.,0
+"An Abd U/S [**3-19**] showed stones/sludge in gallbladder and the pt underwent ERCP [**3188-3-21**] which showed diffuse dilation of CBD up to 10 mm without filling defects (although gallstones noted in GB), and dilation of pancreatic duct to 6 mm.", The patient has a normal caliber common bile duct.,1
+"He developed R sided chest discomfort and chills 2 hours after receiving bleomycin, with T 101.8, O2 sat 88% on RA.", He has a history of cancer,0
+"He developed R sided chest discomfort and chills 2 hours after receiving bleomycin, with T 101.8, O2 sat 88% on RA.", He tolerated Bleomycin well,1
+The patient has received several bronchoscopies with transbronchial biopsy and pathology revealed necrotizing granulomas., There is inflammation in the lungs ,0
+The patient has received several bronchoscopies with transbronchial biopsy and pathology revealed necrotizing granulomas., Bronchoscopy with biopsy was normal ,1
+His infarct was felt to be small vessel., Patient has had a stroke,0
+His infarct was felt to be small vessel., Patient has a normal neurological exam,1
+"OTHER PAST MEDICAL HISTORY: AFib - on amiodarone, coumadin stopped in late [**5-19**] LGIB Breast CA -2.7 cm grade I infiltrating lobular cancer, negative lymph nodes, negative LVI,negative margins and ER positive, HER-2/neu negative.", History of breast cancer,0
+"OTHER PAST MEDICAL HISTORY: AFib - on amiodarone, coumadin stopped in late [**5-19**] LGIB Breast CA -2.7 cm grade I infiltrating lobular cancer, negative lymph nodes, negative LVI,negative margins and ER positive, HER-2/neu negative.", No history of breast cancer,1
+[**Name (NI) 632**] mother reports dark discharge from the J-tube., The patient has a feeding tube ,0
+[**Name (NI) 632**] mother reports dark discharge from the J-tube., The patient has no feeding tubes,1
+"In the [**Name (NI) **], pt was febrile to 103 with BP 89/57.", the patient was febrile and hypotensive,0
+"In the [**Name (NI) **], pt was febrile to 103 with BP 89/57.", the patient had normal vital signs,1
+Abdominal CT liver laceration wit subcapsular hematoma., the patient has a liver laceration,0
+Abdominal CT liver laceration wit subcapsular hematoma., the patient has a normal liver ,1
+Lungs are clear bilaterally with good air entry.," Lungs were without wheeze, rales or rhonchi on exam ",0
+Lungs are clear bilaterally with good air entry., Decreased lung sounds bilaterally,1
+"For FS of 63, given additionaly amp of D50 with latest FS of 123.", The patient was hypoglycemic. ,0
+"For FS of 63, given additionaly amp of D50 with latest FS of 123.", The patient was not given any glucose. ,1
+"For approximately 1-2 weeks [**Known patient firstname **] has been increasingly agitated, with some tremors and has been dropping things.", The patient has a neuromuscular condition. ,0
+"For approximately 1-2 weeks [**Known patient firstname **] has been increasingly agitated, with some tremors and has been dropping things.", The patient has no tremor. ,1
+Pt received 5U PRBCs--> Hct 29.8., The patient was anemic. ,0
+Pt received 5U PRBCs--> Hct 29.8., The patient had a normal hematocrit. ,1
+[**Known patient lastname 28536**] is a 42 year-old female approximately seven weeks status post cadaveric renal transplant with a postoperative course complicated by a ureteral leak requiring nephrostomy tube placement and V.A.C. care to wound as well as a line associated SVC syndrome requiring Coumadinization., The patient recently had a kidney transplant ,0
+[**Known patient lastname 28536**] is a 42 year-old female approximately seven weeks status post cadaveric renal transplant with a postoperative course complicated by a ureteral leak requiring nephrostomy tube placement and V.A.C. care to wound as well as a line associated SVC syndrome requiring Coumadinization., The patient received a renal transplant with no complications,1
+"An MRA of the neck demonstrated probable stenosis in the right brachiocephalic artery, high grade stenoses in the proximal aspect of both internal carotid arteries, irregularity in the proximal left subclavian artery, and narrowing in the proximal right vertebral artery.", The patient has multiple arterial stenoses. ,0
+"An MRA of the neck demonstrated probable stenosis in the right brachiocephalic artery, high grade stenoses in the proximal aspect of both internal carotid arteries, irregularity in the proximal left subclavian artery, and narrowing in the proximal right vertebral artery.", The patient has normal arterial vascular waveforms on Doppler ultrasound. ,1
+The patient further denies any history of recent HA. ., The patient has had no recent headaches,0
+The patient further denies any history of recent HA. ., The patient complains of temporal headache,1
+He was started on IVF and given a total of 25mg of IV Valium., The patient is given a benzodiazepine. ,0
+He was started on IVF and given a total of 25mg of IV Valium., The patient has not been given a sedative. ,1
+OB history notable for infertility treated with Clomid., Patient has tried to conceive,0
+OB history notable for infertility treated with Clomid., Patient is on no medications,1
+"Coombs test was positive, and the serum haptoglobin was less than 0.6.", patient has a positive coomb's test,0
+"Coombs test was positive, and the serum haptoglobin was less than 0.6.", patient has a negative coomb's test,1
+Pressors changed to levo since SVR low., patient is hypotensive,0
+Pressors changed to levo since SVR low., patient is hypertensive,1
+"88F with CAD, chronic diastolic CHF, Afib on coumadin, cardioembolic CVA, DM admitted with respiratory distress.", the patient is in respiratory distress,0
+"88F with CAD, chronic diastolic CHF, Afib on coumadin, cardioembolic CVA, DM admitted with respiratory distress.", the patient is comfortable,1
+"Currently is nauseated, has double vision, is seeing bugs crawling all over the ceiling.", Complains of diplopia ,0
+"Currently is nauseated, has double vision, is seeing bugs crawling all over the ceiling."," Alert and oriented, no visual hallucinations",1
+"He was admitted to the [**Hospital1 188**] in [**2-18**], with hypoxia and bilateral infiltrates.", His oxygen saturation was low,0
+"He was admitted to the [**Hospital1 188**] in [**2-18**], with hypoxia and bilateral infiltrates.", His lungs appeared normal ,1
+Covered broadly with Vanco 1gm and Levofloxacin 750mg., Treated for infection,0
+Covered broadly with Vanco 1gm and Levofloxacin 750mg., Antibiotic therapy is not indicated,1
+A CXR showed an infiltrate in the RML c/w pneumonitis., Patient has an infection,0
+A CXR showed an infiltrate in the RML c/w pneumonitis., Patient has a normal chest CT,1
+Presented with spontaneous onset of labor and progressed to spontaneous vaginal delivery without anesthesia., the delivery was vaginal,0
+Presented with spontaneous onset of labor and progressed to spontaneous vaginal delivery without anesthesia., the delivery was via C section,1
+When she arrived with his jacket he had shaking chills and was conscious and conversive., The patient is able to answer questions.,0
+When she arrived with his jacket he had shaking chills and was conscious and conversive., The patient is aphasic. ,1
+"He had one episode of pancreatitis 15 years ago, and another in [**3139**].", The patient has had episodes of pancreatic swelling. ,0
+"He had one episode of pancreatitis 15 years ago, and another in [**3139**].", The patient has never had an abnormal release of lipase into his blood stream.,1
+His diarrhea acutely worsened over the past 24 hours- he had 8 large watery BMs over this time period., He has frequent stools ,0
+His diarrhea acutely worsened over the past 24 hours- he had 8 large watery BMs over this time period., He has constipation,1
+History of pulmonary embolism., patient has had a PE,0
+History of pulmonary embolism., patient has no history of PE,1
+"While in the [**Name (NI) **], Pt had a 2 min grandmal seizure.", The patient had some neurological symptoms ,0
+"While in the [**Name (NI) **], Pt had a 2 min grandmal seizure.", The patient had no neurological abnormalities,1
+He found no relationship with pain to meals or bowel movements., Pain is no associated with meals or bowel movements,0
+He found no relationship with pain to meals or bowel movements., He has pain after eating,1
+Her exam was unremarkable., There are no concerning findings on the physical exam. ,0
+Her exam was unremarkable., The patient patient had many important and critical findings on her exam. ,1
+"On arrival to the MICU, non-invasive ventilation was attempted but unsuccessful [**2-6**] facial structure.", Breathing support was attempted ,0
+"On arrival to the MICU, non-invasive ventilation was attempted but unsuccessful [**2-6**] facial structure.", The patient successfully was given Bipap ,1
+Bladder CA dx in [**3382**]., History of cancer,0
+Bladder CA dx in [**3382**]., No history of cancer,1
+The patient is now admitted for elective surgery., The patient is undergoing elective surgery.,0
+The patient is now admitted for elective surgery., The patient is undergoing emergent surgery.,1
+Initial ECG showed ST elevations in the inferior leads with ST depressions in V1-V4., the patient is having an STEMI,0
+Initial ECG showed ST elevations in the inferior leads with ST depressions in V1-V4., the patient has a normal EKG,1
+"PAST MEDICAL HISTORY:  [**Doctor Last Name 2217**], status post ablation in [**2972**], colonic polyps per colonoscope on [**2982-3-25**].", Patient had polyps in the colon removed,0
+"PAST MEDICAL HISTORY:  [**Doctor Last Name 2217**], status post ablation in [**2972**], colonic polyps per colonoscope on [**2982-3-25**].", No history of colonic polyps,1
+This is a 80 year old who presented to the ED with abdominal pain., The patient sought care in the emergency department ,0
+This is a 80 year old who presented to the ED with abdominal pain., The patient complains of no pain,1
+Patient's rhythym was thought to represent VTach for which the patient was given lidocaine without effect., The patient has ventricular tachycardia. ,0
+Patient's rhythym was thought to represent VTach for which the patient was given lidocaine without effect., The patient has a regular rate and rhythm. ,1
+He was given levofloxacin 750mg IV and 500cc NS., Patient is on antibiotics,0
+He was given levofloxacin 750mg IV and 500cc NS., Patient has no IV in his arm,1
+Positive chills yesterday., patient has chills,0
+Positive chills yesterday., patient denies chills,1
+The patient notes that at 11 AM today she developed fevers and chills., The patient is febrile.,0
+The patient notes that at 11 AM today she developed fevers and chills., The patient is afebrile.,1
+"Catheterization revealed a 100% totally occlusion of the first obtuse marginal, status post cypher stent placement.", The patient had an acute myocardial infarction.,0
+"Catheterization revealed a 100% totally occlusion of the first obtuse marginal, status post cypher stent placement.", The patient has normal coronary arteries.,1
+"Mother was admitted to the [**Hospital1 47**] at 28-1/7 weeks with preterm labor, cervical shortening, diarrhea, and a left-shifted CBC.", Mother has an infectious process,0
+"Mother was admitted to the [**Hospital1 47**] at 28-1/7 weeks with preterm labor, cervical shortening, diarrhea, and a left-shifted CBC.", CBC was within normal limits ,1
+"Cardiac History: CABG, in [**2777**] anatomy as follows:  LIMA to LAD, saphenous vein graft to obtuse marginal and PDA. .", the patient has a history of CABG,0
+"Cardiac History: CABG, in [**2777**] anatomy as follows:  LIMA to LAD, saphenous vein graft to obtuse marginal and PDA. .", the patient has normal coronary arteries,1
+"HISTORY OF PRESENT ILLNESS:  Patient is an unfortunate 58-year-old male, who is a fire fighter, who sustained an approximately 14 foot fall on a moving fire truck going approximately 5 miles per hour.", The patient has had a significant trauma. ,0
+"HISTORY OF PRESENT ILLNESS:  Patient is an unfortunate 58-year-old male, who is a fire fighter, who sustained an approximately 14 foot fall on a moving fire truck going approximately 5 miles per hour.", The patient sustained a gun shot wound. ,1
+The pain localizes to her lower abdomen & has been worsening., Patient has focal pain,0
+The pain localizes to her lower abdomen & has been worsening., Patient has negative ROS,1
+She denied any loss of consciousness., The patient did not report a time of loss of consciousness. ,0
+She denied any loss of consciousness., The patient reported a time of loss of consciousness. ,1
+"HISTORY:  Baby [**Name (NI) **] [**Known patient lastname 6048**] is the 3.09 kg product of a 36 and [**4-24**] week gestation born to a 37 year-old, Gravida IV, Para 2 woman.", The patient has normal birth weight.,0
+"HISTORY:  Baby [**Name (NI) **] [**Known patient lastname 6048**] is the 3.09 kg product of a 36 and [**4-24**] week gestation born to a 37 year-old, Gravida IV, Para 2 woman.", The patient has low birth weight.,1
+Lactate improved from 2.7 to 1.1., Lactate levels decreased,0
+Lactate improved from 2.7 to 1.1., Lactate levels increased ,1
+"As lab results returned, the ED physicians had become concerned for impending sepsis given elevated wbc count and fever.", The patient’s immune cells are elevated. ,0
+"As lab results returned, the ED physicians had become concerned for impending sepsis given elevated wbc count and fever.", The patient is hypothermic. ,1
+"[**Known patient lastname **] is a 33 year old male with h/o large B-cell lymphoma status post allogenic stem cell transplant in [**3397**], complicated by severe graft versus host disease of the skin and oral mucousa, and recent admission 5/11-23/08 for pneumosepsis and subsequently went to [**Hospital1 **] for rehabilitation.", The patient is on immunosuppression. ,0
+"[**Known patient lastname **] is a 33 year old male with h/o large B-cell lymphoma status post allogenic stem cell transplant in [**3397**], complicated by severe graft versus host disease of the skin and oral mucousa, and recent admission 5/11-23/08 for pneumosepsis and subsequently went to [**Hospital1 **] for rehabilitation.", The patient does not have a history of cancer. ,1
+"The patient was then given Nitroglycerin drip, as well as started on heparin drip.", Patient has started vasodilators,0
+"The patient was then given Nitroglycerin drip, as well as started on heparin drip.", Patient has no symptoms,1
+A barrium swallow on [**2632-10-27**] was suggestive of partial obstruction at the second portion of the duodenum., Barium swallow revealed small bowel obstruction,0
+A barrium swallow on [**2632-10-27**] was suggestive of partial obstruction at the second portion of the duodenum., Barium swallow revealed no abnormalities ,1
+"HISTORY OF PRESENT ILLNESS:  The patient is a 49 year old otherwise healthy female, on only aspirin 81 mg daily, who comes in after a routine physical examination and her primary care physician having heard [**Name Initial (PRE) **] murmur.", Patient takes only one medication,0
+"HISTORY OF PRESENT ILLNESS:  The patient is a 49 year old otherwise healthy female, on only aspirin 81 mg daily, who comes in after a routine physical examination and her primary care physician having heard [**Name Initial (PRE) **] murmur.", Patient has multiple medical conditions,1
+Mild stress incontinence., Unintentional loss of urine,0
+Mild stress incontinence., Denies bladder leakage,1
+"Over the next couple of weeks in the Intensive Care Unit, the patient's ventilatory support had been easily weaned, and she was ultimately extubated approximately a week after transplant.", The patient is on immunosuppressive medications. ,0
+"Over the next couple of weeks in the Intensive Care Unit, the patient's ventilatory support had been easily weaned, and she was ultimately extubated approximately a week after transplant.", The patient has never had surgery. ,1
+Bilateral carotid stenosis 80 to 90% right greater then left., The patient has bilateral carotid artery stenosis.,0
+Bilateral carotid stenosis 80 to 90% right greater then left., The patient has normal carotid arteries.,1
+She first had epistaxis from the right nare starting last Thursday., the patient has epistaxis,0
+She first had epistaxis from the right nare starting last Thursday., the patient denies bleeding,1
+Mother was treated with magnesium sulfate., The mother was given magnesium sulfate during pregnancy,0
+Mother was treated with magnesium sulfate., The mother received no medication,1
+Work-up revealed dilated aortic root and left common carotid artery aneursym., The patient has dilated arteries. ,0
+Work-up revealed dilated aortic root and left common carotid artery aneursym., The patient has normal sized arteries. ,1
+He also has neuropathy in LE from the ankle down to the foot., the patient has neuropathy of the foot,0
+He also has neuropathy in LE from the ankle down to the foot., the patient has a normal neurologic exam,1
+"PMHx: DM, HTN, Hyperthyroid, Depression, Loss of hearing, s/p TAH/BSO, s/p L hip", History of multiple medical conditions,0
+"PMHx: DM, HTN, Hyperthyroid, Depression, Loss of hearing, s/p TAH/BSO, s/p L hip", Hearing is intact,1
+"At 1:30pm, his wife witnessed a prolonged seizure-like episode lasting 20-25 minutes - with R hand shaking and L leg shaking.", Patient has abnormal exam,0
+"At 1:30pm, his wife witnessed a prolonged seizure-like episode lasting 20-25 minutes - with R hand shaking and L leg shaking.", Patient has normal brain MRI imaging,1
+Erythromycin eye ointment and vitamin K were given., The patient was recently born. ,0
+Erythromycin eye ointment and vitamin K were given., The patient was not given ocular antibiotics. ,1
+"She also had a recent MRI of her brain/spine that was concerning for leptomeningeal spread of her cancer, therefore the plan was to do brain and spine irradiation.", The patient has a malignancy. ,0
+"She also had a recent MRI of her brain/spine that was concerning for leptomeningeal spread of her cancer, therefore the plan was to do brain and spine irradiation.", The patient does not have cancer. ,1
+EF [**2610-11-28**] to 25% 3., The patient has congestive heart failure. ,0
+EF [**2610-11-28**] to 25% 3., The patient has a normal ejection fraction. ,1
+The patient was taken to the Catheterization Laboratory on the day of admission and an ethanol septal ablation was performed., The patient had an intravascular procedure. ,0
+The patient was taken to the Catheterization Laboratory on the day of admission and an ethanol septal ablation was performed., The patient has,1
+Stool culture reportedly was not sent prior to delivery., Stool culture was not performed,0
+Stool culture reportedly was not sent prior to delivery., Stool culture was sent prior to delivery ,1
+"On POD#3, pt presented to [**Hospital1 294**] with fevers, abdominal pain, and leukocytosis 14.4, concern for retained stone vs biliary leak.", The patient has signs of infection. ,0
+"On POD#3, pt presented to [**Hospital1 294**] with fevers, abdominal pain, and leukocytosis 14.4, concern for retained stone vs biliary leak.", The patient has a normal cbc. ,1
+56 yo F with severe asthma presents with difficutly breathing and a prominent wheeze., The patient has dyspnea,0
+56 yo F with severe asthma presents with difficutly breathing and a prominent wheeze., Pulmonary exam is normal ,1
+She stated that she never had this kind of emesis before., Patient has been vomiting,0
+She stated that she never had this kind of emesis before., Patient has no pain,1
+"GI bleeding, she did not start the heparin gtt.", She did not start the blood thinner,0
+"GI bleeding, she did not start the heparin gtt.", She has normal gastrointestinal function,1
+"In the [**Name (NI) **], pt was noted to have a temp of 100.5, HR 140s-150s, ANC 256.", The patient is tachycardic,0
+"In the [**Name (NI) **], pt was noted to have a temp of 100.5, HR 140s-150s, ANC 256.", The patient’s vitals and lab work are within normal limits,1
+Renal consult was obtained at that time for a creatinine of 2.0., Patient has AKI,0
+Renal consult was obtained at that time for a creatinine of 2.0., Patient has normal Cr,1
+TIA - [**2787**] 7., patient has history of TIA,0
+TIA - [**2787**] 7., patient has no neurologic history,1
+He is transferred to the floor to await biopsy results and further plans., He is status-post biopsy,0
+He is transferred to the floor to await biopsy results and further plans., He has no indication for biopsy,1
+The pain appeared localized mostly to his back without any radiation., the patient has back pain,0
+The pain appeared localized mostly to his back without any radiation., the patient denies back pain,1
+"CT of the abdomen and pelvis on [**3010-4-20**] at [**Location (un) **] revealed a large amount of ascites, along with CBD dilation to 1.25 cm.", The patient has fluid in the abdomen. ,0
+"CT of the abdomen and pelvis on [**3010-4-20**] at [**Location (un) **] revealed a large amount of ascites, along with CBD dilation to 1.25 cm.", The patient has no fluid in the peritoneal space. ,1
+"Per report, [**Date Range 17970**] at OSH were negative for DVT, while CTA chest was positive for PE.", The patient has a history of PE.,0
+"Per report, [**Date Range 17970**] at OSH were negative for DVT, while CTA chest was positive for PE.", The patient has no history of PE.,1
+Is bringin up greenish sputum., He has cough,0
+Is bringin up greenish sputum., He has a dry cough with no sputum,1
+Also INR of 2.6 on coumadin., Patient has elevated PT,0
+Also INR of 2.6 on coumadin., Patient has normal coagulation profile,1
+"Then developed N/V, vomiting >12 times of clear vomitus last night.", Patient has upper GI symptoms,0
+"Then developed N/V, vomiting >12 times of clear vomitus last night.", Patient has colitis,1
+The patient was unable to offer a review of systems., Patient has not provided a ROS,0
+The patient was unable to offer a review of systems., Patient has provided a ROS,1
+"He denies any lightheadedness, dizziness, palpitations, or chest pain.", The patient does not have symptoms of an cardiac arrhythmia. ,0
+"He denies any lightheadedness, dizziness, palpitations, or chest pain.", The patient ,1
+Apgars of 5 at 1 minute and 7 at 5 minutes., Patient has low Apgars,0
+Apgars of 5 at 1 minute and 7 at 5 minutes., Patient has normal exam,1
+Pt has hx of MRSA infection in this wound. ., The patient had an infected wound. ,0
+Pt has hx of MRSA infection in this wound. ., The patient has no history of infection. ,1
+She was transferred to the medical floor hemodynamically stable., The patient has an appropriate blood pressure. ,0
+She was transferred to the medical floor hemodynamically stable., The patient is hypotensive. ,1
+Right Colon Cancer 14., the patient has a history of colon cancer,0
+Right Colon Cancer 14., the patient has no cancer history,1
+Well controlled on Lipitor., He has hyperlipidemia ,0
+Well controlled on Lipitor., He is on no medication,1
+Angioplasty was performed and a stent was placed., the patient has coronary artery disease,0
+Angioplasty was performed and a stent was placed., the patient has normal coronary arteries ,1
+Hct has been stable without other s/s of bleeding., Patient has stable hematocrit,0
+Hct has been stable without other s/s of bleeding., Patient has extensive hemorrhage,1
+Negative bronchoalveolar lavage in [**2852-2-8**] and in [**2852-2-8**] for Pneumocystis carinii pneumonia and neuro fungi., patient is immunocompromised,0
+Negative bronchoalveolar lavage in [**2852-2-8**] and in [**2852-2-8**] for Pneumocystis carinii pneumonia and neuro fungi., patient has normal immune system,1
+"Of note, pt had recent workup for intermittent abd discomfort and bloating, CT abd showed cholelithiasis and endometrial thickening, due for endometrial biopsy with Gyn. ", Patient has findings warranting biopsy on imaging,0
+"Of note, pt had recent workup for intermittent abd discomfort and bloating, CT abd showed cholelithiasis and endometrial thickening, due for endometrial biopsy with Gyn. ", Patient has negative CT abdomen,1
+Pulse returned at 7:05., The patient was unstable  ,0
+Pulse returned at 7:05., Pulseless electrical activity at 7:05,1
+PAST MEDICAL HISTORY:  Acute renal failure during last medical admission which is now resolved., the patient has a history of acute renal failure,0
+PAST MEDICAL HISTORY:  Acute renal failure during last medical admission which is now resolved., the acute renal failure did not resolve,1
+"She was extubated on [**3319-9-3**] at 5 P.M., tolerated well and was transferred to the floor on [**9-2**].", She was functioning well after tube was removed,0
+"She was extubated on [**3319-9-3**] at 5 P.M., tolerated well and was transferred to the floor on [**9-2**].", She remained intubated,1
+"On arrival to the MICU, the pt is resting comfortably, denies lightheadedness.", The patient requires a high level of care. ,0
+"On arrival to the MICU, the pt is resting comfortably, denies lightheadedness.", The patient is on the regular hospital ward. ,1
+"At her oncologist's office, she was noted to have an irregularly irregular pulse in the 150s.", The patient has a cardiac arrhythmia.,0
+"At her oncologist's office, she was noted to have an irregularly irregular pulse in the 150s.", The patient has a regular heart rate. ,1
+She also notes that her LE may be slightly swollen as compared to baseline; she does not believe she has had significant weight gain., Her left leg appears larger than normal ,0
+She also notes that her LE may be slightly swollen as compared to baseline; she does not believe she has had significant weight gain., Both her lower legs appear normal and unchanged ,1
+"On the day of admission, she had difficulty driving, she pulled over and passed out.", The patient lost consciousness. ,0
+"On the day of admission, she had difficulty driving, she pulled over and passed out.", The patient has a normal mental status. ,1
+CRI (baseline Cr 1.5-1.7) 2., the patient has kidney disease,0
+CRI (baseline Cr 1.5-1.7) 2., the patient has normal kidney function,1
+"HISTORY OF PRESENT ILLNESS:  The patient is a 69-year-old gentleman with a past medical history significant for longstanding diabetes mellitus, coronary artery disease, and peripheral vascular disease who had been followed by Dr. [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 1393**] for a painful nonhealing ulceration in the medial aspect of his right fifth toe.", the patient has a non healing ulcer,0
+"HISTORY OF PRESENT ILLNESS:  The patient is a 69-year-old gentleman with a past medical history significant for longstanding diabetes mellitus, coronary artery disease, and peripheral vascular disease who had been followed by Dr. [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 1393**] for a painful nonhealing ulceration in the medial aspect of his right fifth toe.", the patient has no evidence of peripheral vascular disease,1
+"ESRD: on HD Tues/Th/Sat through L AV fistula, makes some urine 3.", Patient has CKD,0
+"ESRD: on HD Tues/Th/Sat through L AV fistula, makes some urine 3.", Patient has normal Cr,1
+"Atrial fibrillation, on Coumadin.", Patient had elevated INR,0
+"Atrial fibrillation, on Coumadin.", Patient has NSR,1
+Cardiac cath was done and Cardiac surgery was consulted for coronary revascularization., Cardiac disease ,0
+Cardiac cath was done and Cardiac surgery was consulted for coronary revascularization., Normal cardiac function ,1
+"PRENATAL SCREENS:  Blood type O+, antibody negative, RPR nonreactive, rubella nonimmune, hepatitis B surface antigen negative, group beta strep status unknown.", Tested negative for syphilis,0
+"PRENATAL SCREENS:  Blood type O+, antibody negative, RPR nonreactive, rubella nonimmune, hepatitis B surface antigen negative, group beta strep status unknown.", Tested positive for syphilis,1
+"The patient had [** Location **]usly been in his usual state of health until [**11-3**] when he began to experience a ""flu-like"" illness that was associated with high fevers, cough, shortness of breath, dyspnea, and nausea with a decreased  At the outside hospital, the patient was found to have bilateral interstitial infiltrates in the lower lobes and was treated with a course of several different antibiotics.", The patient has pneumonia. ,0
+"The patient had [** Location **]usly been in his usual state of health until [**11-3**] when he began to experience a ""flu-like"" illness that was associated with high fevers, cough, shortness of breath, dyspnea, and nausea with a decreased  At the outside hospital, the patient was found to have bilateral interstitial infiltrates in the lower lobes and was treated with a course of several different antibiotics.", The patient does not have pneumonia. ,1
+"Notes worsening SOB over the past few [**Known patient lastname 8656**], mild cough of whitish sputum, no hemoptysis.", Patient has evidence of URI,0
+"Notes worsening SOB over the past few [**Known patient lastname 8656**], mild cough of whitish sputum, no hemoptysis.", Patient has normal PFTs,1
+Status post right femoral endarterectomy., The patient had a right femoral endarterectomy. ,0
+Status post right femoral endarterectomy., The patient has no significant atherosclerotic disease.,1
+Cranial nerves II through XII are intact., Patient has a normal neurological exam,0
+Cranial nerves II through XII are intact., Patient has a right facial palsy,1
+"Lung adenocarcinoma with metastases to brain, [**Year (4 digits) 494**], pericardium.", The patient has stage IV lung cancer.,0
+"Lung adenocarcinoma with metastases to brain, [**Year (4 digits) 494**], pericardium.", The patient has no metastatic disease.,1
+"During that admission he had a paracentesis for ~5 liters and started on spironolactone, lasix, and protonix.", The patient has cirrhosis. ,0
+"During that admission he had a paracentesis for ~5 liters and started on spironolactone, lasix, and protonix.", The patient does not have fluid in the abdomen. ,1
+"h/o prostate cancer s/p XRT Epidermal inclusion cysts Right inguinal hernia s/p repair in [**2961**] Emphysema, negative smoking history Osteoporosis", Patient has malignancy,0
+"h/o prostate cancer s/p XRT Epidermal inclusion cysts Right inguinal hernia s/p repair in [**2961**] Emphysema, negative smoking history Osteoporosis", Patient has no prior radiation,1
+He underwent stress testing which was abnormal., The patient had an abnormal stress test.,0
+He underwent stress testing which was abnormal., The patient has a normal stress test.,1
+She was lightheaded and weak., She felt faint,0
+She was lightheaded and weak., She felt normal ,1
+BP on arrival was 189/119., The patient was hypertensive,0
+BP on arrival was 189/119., The patient was hypotensive,1
+"Reflex Sympathetic Dystrophy s/p fall, on disability, now resolved", History of complex regional pain syndrome,0
+"Reflex Sympathetic Dystrophy s/p fall, on disability, now resolved", No history of falls or trauma ,1
+﻿He was started on Keflex to cover for cellulitis and also Vicodin for pain., He received an antibiotic and pain medication,0
+﻿He was started on Keflex to cover for cellulitis and also Vicodin for pain., He has no infection,1
+"Over the past year, the patient had noticed weakness and pain in the right upper extremity while doing her activities of daily living.", The patient noticed a change in her right arm ,0
+"Over the past year, the patient had noticed weakness and pain in the right upper extremity while doing her activities of daily living.", The patient denies weakness in her arms or legs,1
+HCT 22 from 29 on admission (27 at OSH)., Hematocrit is low ,0
+HCT 22 from 29 on admission (27 at OSH)., Hematocrit is within normal limits ,1
+She said they also have her on a low salt diet., She is limiting her sodium intake ,0
+She said they also have her on a low salt diet., She is on a regular diet,1
+"During the [** Location **]us 2 days, he also endorses decreased PO intake.", Patient has stopped eating and drinking as much as previous,0
+"During the [** Location **]us 2 days, he also endorses decreased PO intake.", Patient has normal intake,1
+The mother presented in labor on [**11-17**] and progressed to deliver spontaneous vaginal delivery with Apgars of 8 at one minute and 9 at five minutes., Patient is a newborn,0
+The mother presented in labor on [**11-17**] and progressed to deliver spontaneous vaginal delivery with Apgars of 8 at one minute and 9 at five minutes., Patient has abnormal Apgar’s,1
+"79 yo AAM w/PMH sx for CAD s/p CABGx2 and PCI, ventricular pacer, DM2, and BPH s/p recent biopsy for elevated PSA who was at home sitting at his computer when he felt the urge to defecate.", the patient has an elevated PSA,0
+"79 yo AAM w/PMH sx for CAD s/p CABGx2 and PCI, ventricular pacer, DM2, and BPH s/p recent biopsy for elevated PSA who was at home sitting at his computer when he felt the urge to defecate.", the patient has a normal PSA,1
+"On the evening of [**5-1**], the patient was transferred to [**Hospital1 **] for detoxification, and then subsequently sent to [**Hospital1 47**] for medical clearance given concern for agitation and possible delirium tremens.", the patient is an alcoholic,0
+"On the evening of [**5-1**], the patient was transferred to [**Hospital1 **] for detoxification, and then subsequently sent to [**Hospital1 47**] for medical clearance given concern for agitation and possible delirium tremens.", the patient has no history of alcohol abuse,1
+"Of Note, Patients work up for CAD started in [**Month (only) 539**] when she had chest burning across her chest while hospitalized with a urinary tract infection.", the patient has chest pain,0
+"Of Note, Patients work up for CAD started in [**Month (only) 539**] when she had chest burning across her chest while hospitalized with a urinary tract infection.", the patient denies chest pain,1
+"Per her family, she fractured her pubic ramus 3 weeks ago.", History of pelvic fracture,0
+"Per her family, she fractured her pubic ramus 3 weeks ago.", No history of fractures,1
+History of acute renal failure., The patient has had kidney damage. ,0
+History of acute renal failure., The patient has always had normal functioning kidneys. ,1
+The infant was transferred to the neonatal intensive care unit for cardiac evaluation., Infant's cardiac function will be evaluated,0
+The infant was transferred to the neonatal intensive care unit for cardiac evaluation., Infant was discharged home with no complications,1
+"She otherwise denies any chest pain/pressure (her anginal equivalent), PND, palpitations, N/V, diarrhea, BRBPR, dysuria, fevers.", Patient has no cardiac symptoms,0
+"She otherwise denies any chest pain/pressure (her anginal equivalent), PND, palpitations, N/V, diarrhea, BRBPR, dysuria, fevers.", Patient has angina,1
+"During admission, patient was noted to have acute renal failure on top of CRI secondary to multiple myeloma.", the patient has acute renal failure,0
+"During admission, patient was noted to have acute renal failure on top of CRI secondary to multiple myeloma.", the patient has normal renal function,1
+"He denies fever, nausea, vomiting, light headedness, syncope, diarrhea, abdominal discomfort. .", No gastroenteritis,0
+"He denies fever, nausea, vomiting, light headedness, syncope, diarrhea, abdominal discomfort. .", Presents with gastroenteritis,1
+She first noticed some increased bleeding from her ileostomy about a week PTA., She saw blood draining from her ileostomy,0
+She first noticed some increased bleeding from her ileostomy about a week PTA., She denied bleeding from her ileostomy,1
+"At the outside hospital, the patient was noted to have a subdural hemorrhage on CAT scan with cerebral shift and a frontal skull fracture.", Patient has intracranial hemorrhage,0
+"At the outside hospital, the patient was noted to have a subdural hemorrhage on CAT scan with cerebral shift and a frontal skull fracture.", Patient has negative MRI brain,1
+"On review of systems, she reports a history of prior [**Date Range **] in [**2864**] at which time she experienced left facial numnbess/tingling.", The patient has a history of neurologic deficit.,0
+"On review of systems, she reports a history of prior [**Date Range **] in [**2864**] at which time she experienced left facial numnbess/tingling.", The patient has no neurologic complaints.,1
+"Since finding her mother aphasic tonight, her daughter has subsequently discovered that a neighbor had been concerned about the patient's well being earlier today and had called the police to check on her.", patient has aphasia,0
+"Since finding her mother aphasic tonight, her daughter has subsequently discovered that a neighbor had been concerned about the patient's well being earlier today and had called the police to check on her.", patient had normal neurologic function,1
+He was admitted to the MICU for management of sepsis. ., He had an infection leading to sepsis,0
+He was admitted to the MICU for management of sepsis. ., His vitals were normal and he had no recent infection,1
+"The patient was started on nitroglycerin, heparin drips and transferred for cardiac catheterization.", the patient was undergoing cardiac catherization,0
+"The patient was started on nitroglycerin, heparin drips and transferred for cardiac catheterization.", the patient has a normal EKG ,1
+History of myeloproliferative disorder., History of hematologic disorder,0
+History of myeloproliferative disorder., No history of hematologic abnormality,1
+He has had subsequent dyspnea on exertion which has recently worsened., The patient gets short of breath with exertion. ,0
+He has had subsequent dyspnea on exertion which has recently worsened., The patient does not get short of breath with activity. ,1
+He was transferred to the floor and a repeat bedside swallowing evaluation was performed on [**2691-4-16**]., He had a assessment of his swallowing ,0
+He was transferred to the floor and a repeat bedside swallowing evaluation was performed on [**2691-4-16**]., He has no indication for a swallowing evaluation,1
+Diabetes mellitus 2., Patient has a chronic medical condition,0
+Diabetes mellitus 2., Patient has normal serum glucose,1
+"She is still complaining of non-productive cough, congestion, fever/chills, wheezing.", She complains of flu-like symptoms ,0
+"She is still complaining of non-productive cough, congestion, fever/chills, wheezing.", She is afebrile ,1
+"HLD HTN Depression/anxiety EtOH abuse ? aneuryms vs AVM, followed at [**Hospital1 110**] (Dr. [**Last Name (STitle) 28753**]", The patient is at high risk for suicide. ,0
+"HLD HTN Depression/anxiety EtOH abuse ? aneuryms vs AVM, followed at [**Hospital1 110**] (Dr. [**Last Name (STitle) 28753**]", The patient does not have a history of substance abuse. ,1
+"HISTORY OF PRESENT ILLNESS:   The patient is a 64 year old white male with a history of hypertension, hyperlipidemia, chronic obstructive pulmonary disease and diabetes mellitus who presented to an outside hospital on the day prior to admission with chest pain and EKG changes.", The patient has symptoms concerning for acute coronary syndrome. ,0
+"HISTORY OF PRESENT ILLNESS:   The patient is a 64 year old white male with a history of hypertension, hyperlipidemia, chronic obstructive pulmonary disease and diabetes mellitus who presented to an outside hospital on the day prior to admission with chest pain and EKG changes.", The patient has normal lungs. ,1
+"HISTORY:  Baby Girl [**Known patient lastname 23548**] is the former 32 [**2-10**] week triplet, born at 32 weeks, 1660 grams birth weight, in [**Last Name (un) 3244**] fertilization triplet, born by cesarean section for unstoppable labor to a 23-year-old GI P0-III.", Baby girl was delivered pre-term,0
+"HISTORY:  Baby Girl [**Known patient lastname 23548**] is the former 32 [**2-10**] week triplet, born at 32 weeks, 1660 grams birth weight, in [**Last Name (un) 3244**] fertilization triplet, born by cesarean section for unstoppable labor to a 23-year-old GI P0-III.", Baby girl was delivered at full term ,1
+Anxiety 12. h/o Anemia - hemolytic anemia after Keflex 13., The patient had an adverse reaction to Keflex,0
+Anxiety 12. h/o Anemia - hemolytic anemia after Keflex 13., No history of anemia,1
+"HISTORY OF PRESENT ILLNESS:  The patient is a 53-year-old female with a complicated medical history who presented to [**Hospital6 817**] Emergency Room after 2-3 days of shortness of breath, productive cough, and recent syncopal episodes, four in the past month, with outpatient EEG negative in [**3287-6-22**].", The patient has difficulty breathing,0
+"HISTORY OF PRESENT ILLNESS:  The patient is a 53-year-old female with a complicated medical history who presented to [**Hospital6 817**] Emergency Room after 2-3 days of shortness of breath, productive cough, and recent syncopal episodes, four in the past month, with outpatient EEG negative in [**3287-6-22**].", The patient denies any respiratory symptoms ,1
+"Given one unit red cells on floor, temp with RBC's,and treated with tylenol. .", The patient received a transfusion in the hospital,0
+"Given one unit red cells on floor, temp with RBC's,and treated with tylenol. .", The patient’s blood counts and labs were normal ,1
+His pain was fairly constant and crampy in nature., the patient has crampy pain,0
+His pain was fairly constant and crampy in nature., the patient denies pain,1
+"Aortic insufficiency Aortic valve stenosis Redo, redo sternotomy/Third time aortic valve replacement with a 19-mm onyx mechanical valve, Replacement of ascending aorta and hemi arch with a 26-mm Dacron graft using deep hypothermic circulatory arrest.", Patient has a history of aortic insufficiency,0
+"Aortic insufficiency Aortic valve stenosis Redo, redo sternotomy/Third time aortic valve replacement with a 19-mm onyx mechanical valve, Replacement of ascending aorta and hemi arch with a 26-mm Dacron graft using deep hypothermic circulatory arrest.", Patient has no past surgical history,1
+"She went to an outside hospital again and evaluated by neurology and admitted and had an MRI scan, which showed a mass lesion consistent with a hematoma inferior level of C3 C4 with cord compression.", Imaging revealed hematoma at the cervical spine,0
+"She went to an outside hospital again and evaluated by neurology and admitted and had an MRI scan, which showed a mass lesion consistent with a hematoma inferior level of C3 C4 with cord compression.", MRI was unremarkable ,1
+Status post tonsillectomy., Tonsils were removed,0
+Status post tonsillectomy., No surgical history ,1
+He was given lasix 60 IV and started on nitro drip., He was given a diuretic,0
+He was given lasix 60 IV and started on nitro drip., He was given no diuretics ,1
+"47yo M with PMHx metastatic colon CA to liver and lungs, hereditary telangiectasias complicated by chronic nosebleeds, a TIA, and a large pulmonary AVM repaired in [**1-/3145**] who presented on [**3151-4-7**] with chest and calf pain and fever.", Patient has colon neoplasm,0
+"47yo M with PMHx metastatic colon CA to liver and lungs, hereditary telangiectasias complicated by chronic nosebleeds, a TIA, and a large pulmonary AVM repaired in [**1-/3145**] who presented on [**3151-4-7**] with chest and calf pain and fever.", Patient has normal CT chest imaging,1
+"TIA, Arthritis, Gout, CRI (? Dialysis), Bladder tumor s/p resection", the patient had a bladder tumor,0
+"TIA, Arthritis, Gout, CRI (? Dialysis), Bladder tumor s/p resection", the patient has no surgical history,1
+"The birth weight was 2,005 grams, birth length 44.5 cm, and the birth head circumference 30.5 cm.", Patient has just been born,0
+"The birth weight was 2,005 grams, birth length 44.5 cm, and the birth head circumference 30.5 cm.", Patient is severely underweight,1
+Given the patient's recent surgery and that the bleeding had stopped a colonoscopy was planned as an outpatient., Patient has significant PSH,0
+Given the patient's recent surgery and that the bleeding had stopped a colonoscopy was planned as an outpatient., Patient has no symptoms,1
+Osteoarthritis Diabetes HTN Hypercholesterolemia Gout, The patient has multiple chronic conditions.,0
+Osteoarthritis Diabetes HTN Hypercholesterolemia Gout, The patient has normal blood glucose.,1
+"Her hemodynamics showed PA pressures of 56/35, wedge of 31, cardiac output of 3.88 and index of 1.86.", The patient has a catheter in the pulmonary artery. ,0
+"Her hemodynamics showed PA pressures of 56/35, wedge of 31, cardiac output of 3.88 and index of 1.86.", The patient has low pulmonary arterial pressure. ,1
+"He was brought in by  his cousin for concern for GIB, and currently denies that he had any hematemesis but instead endorses hematochezia.", the patient has hematochezia,0
+"He was brought in by  his cousin for concern for GIB, and currently denies that he had any hematemesis but instead endorses hematochezia.", the patient has hematemesis,1
+She had mild asthma treated with albuterol., She has mild chronic airway disease,0
+She had mild asthma treated with albuterol., She has normal respiratory function,1
+"In transit, she vomited and was subsequently intubated to protect her airway given her mental status.", Patient has an ETT in place,0
+"In transit, she vomited and was subsequently intubated to protect her airway given her mental status.", Patient has normal MMSE,1
+He was discharged to Roscommon [**Hospital 4499**] Rehab center on [**10-6**]., the patient was discharged to rehab,0
+He was discharged to Roscommon [**Hospital 4499**] Rehab center on [**10-6**]., the patient was discharged home,1
+"On the floor, pt initially unresponsive to command, voice, touch, arouse briefly to sternal rub.", Patient is minimally responsible,0
+"On the floor, pt initially unresponsive to command, voice, touch, arouse briefly to sternal rub.", Patient has normal MMSE,1
+"Given Levofloxacin 500mg X1, continuous nebs, solumedrol 125mg IV x1 Started on BiPap, more awake and comfortable, with repeat ABG 7.25/100/70.", the patient has COPD,0
+"Given Levofloxacin 500mg X1, continuous nebs, solumedrol 125mg IV x1 Started on BiPap, more awake and comfortable, with repeat ABG 7.25/100/70.", the patient is breathing on room air,1
+She progressed to a vaginal delivery., The patient was pregnant. ,0
+She progressed to a vaginal delivery., The patient had a cesarean section. ,1
+CARDIOVASCULAR: A regular rate and rhythm., Patient has normal cardiac exam,0
+CARDIOVASCULAR: A regular rate and rhythm., Patient has bradycardia,1
+Bilateral carpal tunnel release surgery., History of carpal tunnel syndrome,0
+Bilateral carpal tunnel release surgery., No history of carpal tunnel syndrome,1
+"[**Known patient lastname 24765**] is an 84 y/o man with PMH notable for CAD, PVD, and chronic atrial fibrillation on coumadin who presents to the ED from [**Hospital **] Rehab due to hypotension in setting of UTI.", The patient has urosepsis. ,0
+"[**Known patient lastname 24765**] is an 84 y/o man with PMH notable for CAD, PVD, and chronic atrial fibrillation on coumadin who presents to the ED from [**Hospital **] Rehab due to hypotension in setting of UTI.", The patient does not have an infection. ,1
+"PAST MEDICAL HISTORY:  The patient is with significant medical history of diabetes, anemia, hypertension, hypercholesterolemia, and coronary artery disease.", Patient has multiple chronic conditions,0
+"PAST MEDICAL HISTORY:  The patient is with significant medical history of diabetes, anemia, hypertension, hypercholesterolemia, and coronary artery disease.", Patient requires no medications,1
+"ALT, AST, and lactate were elevated as noted above.", patient has abnormal lfts,0
+"ALT, AST, and lactate were elevated as noted above.", patient has normal lfts,1
+There was no evidence of dissection., there is no evidence of dissection,0
+There was no evidence of dissection., there is evidence of dissection,1
+He was referred to [**Hospital1 1499**] for cardiac catheterization., The patient has symptoms to warrant evaluation of his coronary arteries. ,0
+He was referred to [**Hospital1 1499**] for cardiac catheterization., The patient no symptoms of coronary artery disease or heart failure. ,1
+The plan was to switch to Bactrim., the patient is on antibiotics,0
+The plan was to switch to Bactrim., the patient is not on antibiotics,1
+He received approximately 3 liters of normal saline with improvement in his blood pressures to the 100s systolic., the patient was resuscitated,0
+He received approximately 3 liters of normal saline with improvement in his blood pressures to the 100s systolic., the patient is hypertensive,1
+Atrial fibrillation status post cardioversion [**3422-10-22**]., the patient was cardioverted,0
+Atrial fibrillation status post cardioversion [**3422-10-22**]., the patient has no history or arrhythmia.,1
+Had an ultimately negative esophagogastroduodenoscopy and colonoscopy., Patient has no evidence of GI cancer,0
+Had an ultimately negative esophagogastroduodenoscopy and colonoscopy., Patient still needs age appropriate colon cancer screening,1
+Non-contrast head CT done before her seizure demonstrated possible low attenuation within the white matter of the left occipital lobe and within the right occipital lobe to a lesser extent., Patient has had a CT scan performed,0
+Non-contrast head CT done before her seizure demonstrated possible low attenuation within the white matter of the left occipital lobe and within the right occipital lobe to a lesser extent., Patient has normal imaging findings,1
+She has a history of a positive PPD with a negative chest x- ray., The patient has a positive PPD.,0
+She has a history of a positive PPD with a negative chest x- ray., The patient has active pulmonary tuberculosis.,1
+The patient received IgG treatment in the past from [**3275**] to [**3279**]., The patient received immunoglobin therapy,0
+The patient received IgG treatment in the past from [**3275**] to [**3279**]., The patient has no history of immunoglobin therapy,1
+Abdominal aortic aneurysm measuring 4.7 cm., patient has abdominal aortic aneurysm,0
+Abdominal aortic aneurysm measuring 4.7 cm., patient has normal abdominal aorta,1
+Stroke in the past with diagnosis by MR in [**3190**] but without residual deficits., History of stroke,0
+Stroke in the past with diagnosis by MR in [**3190**] but without residual deficits., No history of cerebrovascular accident,1
+She fell to her knees and her husband and neighbor came to help her clean up., The patient had a fall. ,0
+She fell to her knees and her husband and neighbor came to help her clean up., The patient has not had a fall. ,1
+"Pt is a 47 yo caucasian male w/ PMHx significant for HTN, PAF who p/w chest pain.", He has chest pain,0
+"Pt is a 47 yo caucasian male w/ PMHx significant for HTN, PAF who p/w chest pain.", the patient denies chest pain,1
+"Repeat Hct stable, but in setting of drop in BP, he was transferred to MICU for closer monitoring.", There is concern that the patient has an occult hemorrhage. ,0
+"Repeat Hct stable, but in setting of drop in BP, he was transferred to MICU for closer monitoring.", The patient is hypertensive. ,1
+BNP was elevated at 7882., BNP was above normal ,0
+BNP was elevated at 7882., BNP levels are normal,1
+Cocaine and heroin abuse, Heroin is an opiate. ,0
+Cocaine and heroin abuse, Heroin does not cause withdrawal symptoms. ,1
+The RCA occlusion was stented., patient has coronary artery disease,0
+The RCA occlusion was stented., patient has normal coronary arteries,1
+"CAD s/p PCI to OM, w/ 3 vessel disease on cath in [**3118**] Moderate to severe TR Systolic and Diastolic CHF (EF 45-50%) per echo in [**3118**] Pulm HTN Left cataract surgery in [**3113-11-19**] PVD s/p fem-peroneal, failed graft underwent left BKA UTI with sepsis ([**3120**]), recurrent UTIs on suppressive antibiotics HTN Hyperlipidemia DM2 Positive PPD in [**3110**] Anemia CVA in [**3093**], s/p L carotid endarterectomy Diabetic retinopathy, status post laser therapy x2", Patient has cardiac disease,0
+"CAD s/p PCI to OM, w/ 3 vessel disease on cath in [**3118**] Moderate to severe TR Systolic and Diastolic CHF (EF 45-50%) per echo in [**3118**] Pulm HTN Left cataract surgery in [**3113-11-19**] PVD s/p fem-peroneal, failed graft underwent left BKA UTI with sepsis ([**3120**]), recurrent UTIs on suppressive antibiotics HTN Hyperlipidemia DM2 Positive PPD in [**3110**] Anemia CVA in [**3093**], s/p L carotid endarterectomy Diabetic retinopathy, status post laser therapy x2", Patient has negative PSH,1
+"Patient admitted to [**Hospital Ward Name **] 3, continued to have abdominal pain, RUQ U/S c/w cholecystitis however no LFT abnormalities on admission.", Patient has positive imaging findings,0
+"Patient admitted to [**Hospital Ward Name **] 3, continued to have abdominal pain, RUQ U/S c/w cholecystitis however no LFT abnormalities on admission.", Patient has no complaints,1
+Intervention was deferred at the time and the patient was sent to CCU for TEE., The patient was sent for a transesophageal echocardiogram,0
+Intervention was deferred at the time and the patient was sent to CCU for TEE.," The patient has no cardiac abnormality of symptoms, no indication for echo. ",1
+"Of note, the patient has been suffering from nausea, vomiting, and diarrhea (unknown if bloody/bilious) over the past week or so with minimal PO intake - occasional soda during the day.", The patient has symptoms of gastroenteritis. ,0
+"Of note, the patient has been suffering from nausea, vomiting, and diarrhea (unknown if bloody/bilious) over the past week or so with minimal PO intake - occasional soda during the day.", The patient does not have gastroenteritis. ,1
+"33yoF with leukemia AML s/p allo [**First Name3 (LF) 6600**] and recurrence, last chemo [**11-12**], presents with 8hrs of increasing SOB, orthopnea, and right sided chest pain, pleuritic in nature.", The patient has a malignancy. ,0
+"33yoF with leukemia AML s/p allo [**First Name3 (LF) 6600**] and recurrence, last chemo [**11-12**], presents with 8hrs of increasing SOB, orthopnea, and right sided chest pain, pleuritic in nature.", The patient has no history of cancer. ,1
+"Last night, he began having chest pain at rest.", patient has chest pain at rest,0
+"Last night, he began having chest pain at rest.", patient denies chest pain,1
+History of end-stage renal disease., The patient is on dialysis.,0
+History of end-stage renal disease., The patient has normal kidney function.,1
+History of end-stage renal disease., patient is on dialysis,0
+History of end-stage renal disease., patient has normal renal function,1
+"Multi-drug resistant E.coli and MRSA, VRE UTIs (likely due to uterine/bladder prolapse) 13.", History of multiple urinary tract infections ,0
+"Multi-drug resistant E.coli and MRSA, VRE UTIs (likely due to uterine/bladder prolapse) 13.", No history of urinary tract infections,1
+History was taken entirely from the patients husband and daughters., history was obtained from the family ,0
+History was taken entirely from the patients husband and daughters., the patient provided the history,1
+"CAD s/p coronary bypass surgery [**3-16**]- LIMA to LAD, SVG to OM, SVG to Diagonal, and SVG to PDA.", The patient has a history of heart disease,0
+"CAD s/p coronary bypass surgery [**3-16**]- LIMA to LAD, SVG to OM, SVG to Diagonal, and SVG to PDA.", The patient has no heart disease ,1
+Her respiratory status seems to improve with nebs and diuresis., The patient is short of breath.,0
+Her respiratory status seems to improve with nebs and diuresis., The patient has normal breathing.,1
