@@ -65,7 +65,7 @@ class Patient(object):
         # Process notes, prescriptions, and labs
         self.process_notes()
         self.process_prescriptions()
-        # todo: process labs
+        self.process_labs()                # note: comment out if removing labs
         
         # Final. Process all data (notes, prescriptions, labs), map by date
         self.process_by_date()
@@ -77,7 +77,7 @@ class Patient(object):
         return pat_notes_df
     
     def process_by_date(self):
-#         start, end, (notes_dates, prescriptions_dates) = self._get_start_end_dt()
+#         start, end, (notes_dates, prescriptions_dates, lab_dates) = self._get_start_end_dt()
         start, end, all_dates = self._get_start_end_dt()
         delta = dt.timedelta(days=1)
         current = start
@@ -112,6 +112,23 @@ class Patient(object):
 
             current += delta # go to next date
         self.prescriptions = prescriptions
+        
+    def process_labs(self):
+        start, end = self._get_lab_start_end_dt() # get start/end dates
+        self._process_lab_sents()                 # get lab info in sentence form
+        
+        # for each date, get all labs done and construct LabResults
+        delta = dt.timedelta(days=1)
+        current = start
+        labs = []
+        while current <= end:
+            current_lab_df = self.lab_df.apply(lambda x: x.DT == current, axis=1)
+            if current_lab_df.sum() > 0: # if there is at least 1
+                lab_result = LabResults(self, current_lab_df, current)
+                labs.append(lab_result)
+
+            current += delta # go to next date
+        self.labs = labs
     
     def _get_prescription_start_end_dt(self):
         # get datetimes for start and end dates
@@ -127,12 +144,43 @@ class Patient(object):
         
         return start, end
     
+    def _get_lab_start_end_dt(self):
+        # get datetimes for start and end dates
+        time_dt = self.lab_df.CHARTTIME.apply(lambda x: datetime.strptime(x, "%Y-%m-%d %H:%M:%S").date())
+        
+        self.lab_df[['DT']] = time_dt
+        
+        # get earliest and latest dates
+        start = min(time_dt)
+        end   = max(time_dt)
+        
+        return start, end
+    
     def _process_prescription_sents(self):
         # process sentence for each prescription
         # get_prescription_sent = lambda row: f"Patient was prescribed {row.DRUG.item()} {row.PROD_STRENGTH.item()} {row.ROUTE.item()} of total {row.DOSE_VAL_RX.item()} {row.DOSE_UNIT_RX.item()}"
         get_prescription_sent = lambda row: f"Patient was prescribed {row.DRUG} {row.PROD_STRENGTH} {row.ROUTE} of total {row.DOSE_VAL_RX} {row.DOSE_UNIT_RX}"
         prescription_sents = self.prescription_df.apply(get_prescription_sent, axis=1)
         self.prescription_df[['Sentence']] = prescription_sents
+        
+    def _process_lab_sents(self):
+        # process lab for each lab
+        def _get_lab(row):
+            """ Gets name of lab """
+            return self.d_lab_df.loc[self.d_lab_df.ITEMID == row.ITEMID].LABEL.item()
+
+        def _get_flag(row):
+            """ Gets normal/abnormal flag info """
+            if row.NULL_FLAG: # no flag info if no flag
+                return ""
+            return f" , which is {row.FLAG}"
+        
+        # null flag checking
+        self.lab_df[['NULL_FLAG']] = self.lab_df.FLAG.isnull() # True if null, False otherwise
+        
+        get_lab_sent = lambda row: f"Patient's {_get_lab(row)} lab came back {row.VALUE} {row.VALUEUOM}{_get_flag(row)}."
+        lab_sents = self.lab_df.apply(get_lab_sent, axis=1)
+        self.lab_df[['Sentence']] = lab_sents
     
     def _filter_physician(self, pat_notes_df):
         # Filter for only physician notes
@@ -155,10 +203,12 @@ class Patient(object):
         """ Gets start and end datetimes across all data. todo: add labs"""
         notes_dates         = list(map(lambda x: x.time.date(), self.notes))
         prescriptions_dates = list(map(lambda x: x.date,        self.prescriptions))
-        start = min(notes_dates + prescriptions_dates)
-        end   = max(notes_dates + prescriptions_dates)
+        lab_dates           = list(map(lambda x: x.date,        self.labs))
         
-        return start, end, (notes_dates, prescriptions_dates)
+        start = min(notes_dates + prescriptions_dates + lab_dates)
+        end   = max(notes_dates + prescriptions_dates + lab_dates)
+        
+        return start, end, (notes_dates, prescriptions_dates, lab_dates)
 
     def _get_current_items(self, items, dates, current):
         """ Get items for current date """
@@ -176,12 +226,13 @@ class Patient(object):
         
         all_dates: iterable of dates, corresponding to self.[DailyData list]
         """
-        notes_dates, prescriptions_dates = all_dates
+        notes_dates, prescriptions_dates, lab_dates = all_dates
         
         current_notes         = self._get_current_items(self.notes,         notes_dates,         current)
         current_prescriptions = self._get_current_items(self.prescriptions, prescriptions_dates, current)
+        current_labs          = self._get_current_items(self.labs,          lab_dates,           current)
         
-        current_data = current_notes + current_prescriptions
+        current_data = current_notes + current_prescriptions + current_labs
         
         return current_data
 
@@ -332,8 +383,24 @@ class PrescriptionOrders(DailyData):
         self.datas = prescription_data
 
 class LabResults(DailyData):
-    def __init__(self, patient):
+    def __init__(self, patient, daily_bools, date):
+        """ Patient instance and boolean Series for selecting daily rows. """
         super(LabResults, self).__init__(patient)
+        self.date = date
+        self.time = datetime.combine(date, datetime.min.time())
+        
+        self.lab_df    = self.patient.lab_df[daily_bools]  # results dataframe
+        self.sentences = self.lab_df.Sentence.values       # array of results in sentence form
+        
+        # Process each lab
+        lab_data = []
+        for idx, lab in enumerate(self.lab_df):
+            lab_rep = Lab(self, idx,
+                          filter_map=SEMANTIC_TYPE_TO_NAME,
+                          conflict_map=CONFLICT_TO_SEMANTIC_TYPE)
+            lab_data.append(lab_rep)
+        
+        self.datas = lab_data
         
 """ Part III: Data """
 
@@ -469,8 +536,10 @@ class Prescription(Data):
         super(Prescription, self).__init__(prescription_order, txt, filter_map, conflict_map)
         
 class Lab(Data):
-    def __init__(self, lab_result, lab_idx):
-        super(Lab, self).__init__(lab_result)
+    def __init__(self, lab_result, lab_idx, filter_map=None, conflict_map=None):
+        txt = lab_result.sentences[lab_idx]
         self.lab_idx = lab_idx
         self.type    = "lab"
+        
+        super(Lab, self).__init__(lab_result, txt, filter_map, conflict_map)
         
