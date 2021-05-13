@@ -374,7 +374,7 @@ class PrescriptionOrders(DailyData):
         
         # Process each prescription
         prescription_data = []
-        for idx, prescript in enumerate(self.prescription_df):
+        for idx, _ in enumerate(self.prescription_df.iterrows()):
             prescript_rep = Prescription(self, idx,
                                          filter_map=SEMANTIC_TYPE_TO_NAME,
                                          conflict_map=CONFLICT_TO_SEMANTIC_TYPE)
@@ -394,7 +394,7 @@ class LabResults(DailyData):
         
         # Process each lab
         lab_data = []
-        for idx, lab in enumerate(self.lab_df):
+        for idx, _ in enumerate(self.lab_df.iterrows()):
             lab_rep = Lab(self, idx,
                           filter_map=SEMANTIC_TYPE_TO_NAME,
                           conflict_map=CONFLICT_TO_SEMANTIC_TYPE)
