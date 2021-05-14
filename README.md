@@ -89,11 +89,13 @@ todo, @diana
 
 todo, @sharon
 
-## Demo
+## Considerations for Demo
+
+![image](data_structures.png)
 
 To make the pipeline easily integrate-able to a demo, our main consideration was ensuring we can map sentences back to the original patient so that if a potential contradiction is detected, we can trace back to the original patient and highlight the sentence in the note. 
 
-We developed 3-tiered data representation, described in `data_structures.py`, which consists of `Patient`, `DailyData`, and `Data` classes for each tier. `DailyData` subclasses include `Note`, `PrescriptionOrders`, and `LabResults`; `Data` subclasses include `Sentence`, `Prescription`, and `Lab`. 
+We developed 3-tiered data representation, as shown in the figure above, which is implemented in `data_structures.py`. It consists of `Patient`, `DailyData`, and `Data` classes for each tier. `DailyData` subclasses include `Note`, `PrescriptionOrders`, and `LabResults`; `Data` subclasses include `Sentence`, `Prescription`, and `Lab`. 
 
 In our pipeline, initializing a `Patient` instance constructs a 3-tiered tree with bidirectional edges between nodes so that we can trace back from, e.g. a `Sentence` instance to `Patient`. 
 
