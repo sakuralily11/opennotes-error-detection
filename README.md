@@ -25,7 +25,9 @@ conda activate opennotes
 After getting access to MedNLI and MIMIC-III data through PhysioNet, use `gsutil` command to copy MIMIC-III tables from Google Cloud Storage Bucket to your local or virtual machine, and download MedNLI directly from [here](https://physionet.org/content/mednli/1.0.0/).
 
 ```
-# authenticate, this should direct you to a link; click on account linked to PhysioNet and copy+paste authentication code to verify credentials
+# authenticate, this should direct you to a link; 
+# click on account linked to PhysioNet and 
+# copy+paste authentication code to verify credentials
 gcloud auth login 
 
 # copy files (mimic-iii)
@@ -37,21 +39,29 @@ gsutil cp gs://mimiciii-1.4.physionet.org/D_LABITEMS.csv.gz .
 
 ## Data Processing
 
-todo, @yuria
-
-talk about data structures file too and processing
+We process the MIMIC-III tables and MedNLI dataset to generate dataset with sentence pairs to check for contradiction, and a label (if it has been labeled). We describe the notebooks below.
 
 ### MIMIC-III
 
-todo, @yuria
+To process datasets from the MIMIC-III database (hand-labeled, generated contradiction, and unlabeled), run `MIMIC Data Processing + Contradiction Generation.ipynb`. We describe the main parts of the notebook:
 
-`Generating Contradictions - Yuria.ipynb` has all the data loading and processing code for MIMIC-III (unlabeled) and generated MIMIC-III data. 
+* **Part 1:** Sets up concept extractors using spaCy and scispaCy packages. Specifically, we use spaCy with UMLS and RxNorm entity linkers and Med7 model. 
+
+* **Part 2:** Describes the conflict types we are interested in and mappings to semantic types, which can be derived from UMLS entity linker. 
+
+* **Part 3:** Loads MIMIC-III data tables.
+
+* **Part 4:** Code used to generate contradictions. We print outputs from the first part of pipeline that filters for candidate sentence pairs talking about the same topic, then insert contradictions. 
+
+* **Part 5:** Once contradictions are generated, create dataset for baseline and rule-based models.
+
+* **Part 6:** Creates dataset for hand-labeled MIMIC-III examples for baseline and rule-based models.
+
+* **Part 7:** Creates dataset for unlabeled MIMIC-III examples for qualitative evaluation.
 
 ### MedNLI 
 
-todo, @yuria
-
-`MedNLI Data Processing.ipynb` has all the data loading and processing code for MedNLI data. 
+To process datasets from MedNLI dataset, run `MedNLI Data Processing.ipynb`. Parts 1-2 are similar to the MIMIC-III data processing notebook. Part 3 creates dataset for baseline and rule-based models.  
 
 ## Experiments
 
@@ -78,4 +88,12 @@ todo, @diana
 #### Rule-Based 
 
 todo, @sharon
+
+## Demo
+
+To make the pipeline easily integrate-able to a demo, our main consideration was ensuring we can map sentences back to the original patient so that if a potential contradiction is detected, we can trace back to the original patient and highlight the sentence in the note. 
+
+We developed 3-tiered data representation, described in `data_structures.py`, which consists of `Patient`, `DailyData`, and `Data` classes for each tier. `DailyData` subclasses include `Note`, `PrescriptionOrders`, and `LabResults`; `Data` subclasses include `Sentence`, `Prescription`, and `Lab`. 
+
+In our pipeline, initializing a `Patient` instance constructs a 3-tiered tree with bidirectional edges between nodes so that we can trace back from, e.g. a `Sentence` instance to `Patient`. 
 
