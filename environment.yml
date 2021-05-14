@@ -171,6 +171,7 @@ dependencies:
     - murmurhash==1.0.5
     - nltk==3.6.2
     - nmslib==2.1.1
+    - openpyxl==3.0.7
     - pathy==0.5.2
     - pip==21.0.1
     - plac==1.1.3
