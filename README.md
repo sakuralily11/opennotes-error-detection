@@ -53,16 +53,29 @@ todo, @yuria
 
 `MedNLI Data Processing.ipynb` has all the data loading and processing code for MedNLI data. 
 
-## Classification
+## Experiments
 
-### Baseline
+### MedNLI
+
+instructions on how to reproduce results - e.g. run this code to reproduce table X/experiment A results
+
+#### Baseline
 
 todo, @diana
 
-instructions on how to reproduce results - e.g. run this code to reproduce table X/experiment A results
-
-### Rule-Based 
+#### Rule-Based 
 
 todo, @sharon
 
+### MIMIC-III
+
 instructions on how to reproduce results - e.g. run this code to reproduce table X/experiment A results
+
+#### Baseline
+
+todo, @diana
+
+#### Rule-Based 
+
+todo, @sharon
+
