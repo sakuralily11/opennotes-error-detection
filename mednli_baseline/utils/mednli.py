@@ -18,46 +18,42 @@ def read_mednli(filename):
     data = []
 
     with open(filename, 'r') as f:
-        # for line in f:
-        #     example = json.loads(line)
-
-        #     premise = get_tokens(example['sentence1_binary_parse'])
-        #     hypothesis = get_tokens(example['sentence2_binary_parse'])
-        #     label = example.get('gold_label', None)
-
-        #     data.append((premise, hypothesis, label))
         for line in f.readlines():
             example = line.split('\t')
-            #print(example)
+            if len(example) != 3:
+                continue
 
             premise = get_tokens(example[0])
             hypothesis = get_tokens(example[1])
-            label = example[2].rstrip()
+            label = num_to_label(example[2].rstrip())
 
             data.append((premise, hypothesis, label))
 
     print(f'MedNLI file loaded: {filename}, {len(data)} examples')
     return data
 
+def num_to_label(l):
+    if l == "0":
+        return "entailment"
+    else:
+        return "contradiction"
+
 
 def read_sentences(filename):
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='UTF-8') as f:
         lines = [l.split('\t') for l in f.readlines()]
 
+#     input_data = [(word_tokenize(l[0]), word_tokenize(l[1]), num_to_label(l[2].rstrip())) for l in lines if len(l) == 3]
     input_data = [(word_tokenize(l[0]), word_tokenize(l[1]), None) for l in lines if len(l) == 2]
     return input_data
 
 
 def load_mednli(cfg):
-    # filenames = [
-    #     'mli_train_v1.jsonl',
-    #     'mli_dev_v1.jsonl',
-    #     'mli_test_v1.jsonl',
-    # ]
+    prefix = 'generated/'
     filenames = [
-        'train.txt',
-        'dev.txt',
-        'test.txt',
+        prefix+'train.txt',
+        prefix+'dev.txt',
+        prefix+'test.txt',
     ]
     filenames = [cfg.mednli_dir.joinpath(f) for f in filenames]
 

@@ -15,4 +15,7 @@ dependencies:
   - scikit-learn==0.20.2
   - six==1.11.0
   - tqdm==4.29.1
+  - seaborn
+  - jupyter
+  - jupyterlab
 prefix: /opt/conda/envs/mednli

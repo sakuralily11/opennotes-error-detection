@@ -6,7 +6,7 @@ from utils.vocab import Vocab
 
 
 class NLIDataset(torch.utils.data.Dataset):
-    LABEL_TO_ID = {'contradiction': 0, 'entailment': 1, 'neutral': 2}
+    LABEL_TO_ID = {'contradiction': 1, 'entailment': 0, 'neutral': 2}
 
     def __init__(self, mednli_data, lowercase=True, vocab=None, max_len=50):
         premise, hypothesis, label, = zip(*mednli_data)

@@ -4,7 +4,9 @@ from pathlib import Path
 
 import numpy as np
 import torch.nn.functional as F
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 from utils.dataset import NLIDataset
 from utils.helpers import create_model
@@ -77,12 +79,29 @@ def main(model_spec_filename, input_filename, output_filename):
     predictions = np.concatenate(predictions)
     print(f'Predictions: {predictions.shape}')
 
-    # calc the accuracy
     labels_pred = predictions.argmax(axis=1)
-    accuracy = accuracy_score(labels_true, labels_pred)
-    print(f'Accuracy: {accuracy:.3f}')
+
+    # calculate accuracy
+#     evaluation(labels_true, labels_pred)
 
     save_predictions(predictions, output_filename)
+
+def evaluation(y, y_hat, title = 'Confusion Matrix'):
+    cm = confusion_matrix(y, y_hat)
+    precision = precision_score(y, y_hat)
+    recall = recall_score(y, y_hat)
+    accuracy = accuracy_score(y,y_hat)
+    f1 = f1_score(y,y_hat)
+    print('Recall: ', recall)
+    print('Accuracy: ', accuracy)
+    print('Precision: ', precision)
+    print('F1: ', f1)
+    sns.heatmap(cm,  cmap= 'PuBu', annot=True, fmt='g', annot_kws=    {'size':20})
+    plt.xlabel('predicted', fontsize=18)
+    plt.ylabel('actual', fontsize=18)
+    plt.title(title, fontsize=18)
+    
+    plt.savefig('cm_generated.jpg', format='jpg')
 
 
 if __name__ == '__main__':

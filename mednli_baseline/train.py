@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 import torch
 from ignite.engine import Engine, Events
-from ignite.metrics import Loss, CategoricalAccuracy
+from ignite.metrics import Loss, CategoricalAccuracy, Precision
 
 from config import Config
 from utils.helpers import get_model_params, create_word_embeddings, create_model, get_dataset, randomize_name, \
@@ -14,7 +14,9 @@ from utils.torch import create_data_loader, get_trainable_parameters, to_device,
 
 def get_model_name(cfg):
     #model_name = f'mednli.{cfg.model.name.lower()}.{cfg.word_embeddings.name.lower()}.{cfg.hidden_size}'
-    model_name = f'mimic.{cfg.model.name.lower()}.{cfg.word_embeddings.name.lower()}.{cfg.hidden_size}'
+    #model_name = f'mimic.{cfg.model.name.lower()}.{cfg.word_embeddings.name.lower()}.{cfg.hidden_size}'
+#     model_name = f'mednli_labeled.{cfg.model.name.lower()}.{cfg.word_embeddings.name.lower()}.{cfg.hidden_size}'
+    model_name = f'generated.{cfg.model.name.lower()}.{cfg.word_embeddings.name.lower()}.{cfg.hidden_size}'
 
     return model_name
 
@@ -66,21 +68,25 @@ def main(cfg):
 
     metrics = [
         ('loss', Loss(criterion)),
-        ('accuracy', CategoricalAccuracy())
+        ('accuracy', CategoricalAccuracy()),
+        ('precision', Precision())
     ]
     for name, metric in metrics:
         metric.attach(evaluator, name)
 
     best_dev_acc = -np.inf
+    best_dev_precision = -np.inf
 
     @trainer.on(Events.EPOCH_COMPLETED)
     def eval_model(engine):
-        nonlocal best_dev_acc
+        nonlocal best_dev_acc, best_dev_precision
 
         def format_metric_str(metrics_values):
             metrics_str = ', '.join([
-                f'{metric_name} {metrics_values[metric_name]:.3f}' for metric_name, _ in metrics
+                f'{metric_name} {metrics_values[metric_name]:.3f}' for metric_name in ['loss', 'accuracy']
             ])
+            p = float(metrics_values['precision'][1])
+            metrics_str += ', ' + f'precision {p:.3f}'
             return metrics_str
 
         evaluator.run(data_loader_train)
@@ -93,9 +99,11 @@ def main(cfg):
         print('Train:', format_metric_str(metrics_train), end=' | ')
         print('Dev:', format_metric_str(metrics_dev), end=' ')
         print()
-
-        if metrics_dev['accuracy'] > best_dev_acc:
+        
+        #
+        if metrics_dev['accuracy'] >= best_dev_acc-1e-8 and float(metrics_dev['precision'][1]) > 0:
             best_dev_acc = metrics_dev['accuracy']
+            best_dev_precision = float(metrics_dev['precision'][1])
             save_weights(model, cfg.models_dir.joinpath(f'{model_name}.pt'))
 
     # save models specifications
