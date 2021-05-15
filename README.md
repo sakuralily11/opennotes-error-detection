@@ -69,7 +69,7 @@ To process datasets from MedNLI dataset, run `MedNLI Data Processing.ipynb`. Par
 
 #### Baseline
 
-todo, @diana
+Refer to the `mednli_baseline` folder, which contains instructions on installation, downloading the MedNLI dataset & word embeddings, and training pre-trained models.
 
 #### Hybrid Rule-Based Model
 
@@ -79,7 +79,7 @@ Upload a comma-separated values file containing the dataset with relevant featur
 
 #### Baseline
 
-todo, @diana
+Refer to the `mednli_baseline` folder, which contains instructions on installation and training pre-trained models on MIMIC-III data in the expected format.
 
 #### Hybrid Rule-Based Model
 
