@@ -67,8 +67,6 @@ To process datasets from MedNLI dataset, run `MedNLI Data Processing.ipynb`. Par
 
 ### MedNLI
 
-instructions on how to reproduce results - e.g. run this code to reproduce table X/experiment A results
-
 #### Baseline
 
 todo, @diana
@@ -78,8 +76,6 @@ todo, @diana
 Upload a comma-separated values file containing the dataset with relevant features for hand-crafted rules for MedNLI data (see above section on Data Processing).  To train and evaluate using a hybrid rule-based model, run `medNLI_hybrid.ipynb`. This notebook includes training and evaluation for separate rule-based model, a Gradient Boosting Classifier, and a hybrid model that augments the Gradient Boosting Classifier with hand-crafted rules. In the evaluation, we also include a section on feature importance that describes weights of features in label prediction for different models.
 
 ### MIMIC-III
-
-instructions on how to reproduce results - e.g. run this code to reproduce table X/experiment A results
 
 #### Baseline
 
