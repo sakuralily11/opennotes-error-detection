@@ -61,33 +61,29 @@ To process datasets from the MIMIC-III database (hand-labeled, generated contrad
 
 ### MedNLI 
 
-To process datasets from MedNLI dataset, run `MedNLI Data Processing.ipynb`. Parts 1-2 are similar to the MIMIC-III data processing notebook. Part 3 creates dataset for baseline and rule-based models.  
+To process datasets from MedNLI dataset, run `MedNLI Data Processing.ipynb`. Parts 1-2 are similar to the MIMIC-III data processing notebook. Part 3 creates dataset for baseline and rule-based models. `MedNLI_features.ipynb` does similar data processing and adds on relevant features to be used in training and evaluation of rule=based models, which is described in the section below.
 
 ## Experiments
 
 ### MedNLI
 
-instructions on how to reproduce results - e.g. run this code to reproduce table X/experiment A results
-
 #### Baseline
 
-todo, @diana
+Refer to the `mednli_baseline` folder, which contains instructions on installation, downloading the MedNLI dataset & word embeddings, and training pre-trained models.
 
-#### Rule-Based 
+#### Hybrid Rule-Based Model
 
-todo, @sharon
+Upload a comma-separated values file containing the dataset with relevant features for hand-crafted rules for MedNLI data (see above section on Data Processing).  To train and evaluate using a hybrid rule-based model, run `medNLI_hybrid.ipynb`. This notebook includes training and evaluation for separate rule-based model, a Gradient Boosting Classifier, and a hybrid model that augments the Gradient Boosting Classifier with hand-crafted rules. In the evaluation, we also include a section on feature importance that describes weights of features in label prediction for different models.
 
 ### MIMIC-III
 
-instructions on how to reproduce results - e.g. run this code to reproduce table X/experiment A results
-
 #### Baseline
 
-todo, @diana
+Refer to the `mednli_baseline` folder, which contains instructions on installation and training pre-trained models on MIMIC-III data in the expected format.
 
-#### Rule-Based 
+#### Hybrid Rule-Based Model
 
-todo, @sharon
+Upload a comma-separated values file containing the dataset with relevant features for hand-crafted rules for generated MIMIC-III data (see above section on Data Processing).  To train and evaluate using a hybrid rule-based model, run `generated_hybrid.ipynb`. This notebook includes training and evaluation for separate rule-based model, a Gradient Boosting Classifier, and a hybrid model that augments the Gradient Boosting Classifier with hand-crafted rules. In the evaluation, we also include a section on feature importance that describes weights of features in label prediction for different models. At the bottom of this notebook, we include a section to support qualitative evaluation of held out procesed MIMIC sentence pairs without labels. Using the trained model, we predict labels and manually evaluate true contradictions out of examples that were classified as contradictions.
 
 ## Considerations for Demo
 
