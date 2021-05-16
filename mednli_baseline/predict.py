@@ -102,6 +102,7 @@ def evaluation(y, y_hat, title = 'Confusion Matrix'):
     plt.ylabel('actual', fontsize=18)
     plt.title(title, fontsize=18)
     
+    # TODO: change name of image if desired
     plt.savefig('cm_generated.jpg', format='jpg')
 
 
