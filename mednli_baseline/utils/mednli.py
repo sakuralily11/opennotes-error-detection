@@ -43,12 +43,14 @@ def read_sentences(filename):
     with open(filename, 'r', encoding='UTF-8') as f:
         lines = [l.split('\t') for l in f.readlines()]
 
-#     input_data = [(word_tokenize(l[0]), word_tokenize(l[1]), num_to_label(l[2].rstrip())) for l in lines if len(l) == 3]
-    input_data = [(word_tokenize(l[0]), word_tokenize(l[1]), None) for l in lines if len(l) == 2]
+    # TODO: if using training or predicting with labeled data, use line 47; if predicting without labels, use line 48
+    #input_data = [(word_tokenize(l[0]), word_tokenize(l[1]), num_to_label(l[2].rstrip())) for l in lines if len(l) == 3]
+    #input_data = [(word_tokenize(l[0]), word_tokenize(l[1]), None) for l in lines if len(l) == 2]
     return input_data
 
 
 def load_mednli(cfg):
+    # TODO: change these file paths to where you saved the dataset files
     prefix = 'generated/'
     filenames = [
         prefix+'train.txt',

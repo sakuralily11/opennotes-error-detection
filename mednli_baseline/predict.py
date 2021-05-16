@@ -82,7 +82,8 @@ def main(model_spec_filename, input_filename, output_filename):
     labels_pred = predictions.argmax(axis=1)
 
     # calculate accuracy
-#     evaluation(labels_true, labels_pred)
+    # TODO: if training without labels, comment this line out
+    evaluation(labels_true, labels_pred)
 
     save_predictions(predictions, output_filename)
 
