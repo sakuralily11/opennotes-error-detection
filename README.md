@@ -85,7 +85,7 @@ Refer to the `mednli_baseline` folder, which contains instructions on installati
 
 Upload a comma-separated values file containing the dataset with relevant features for hand-crafted rules for generated MIMIC-III data (see above section on Data Processing).  To train and evaluate using a hybrid rule-based model, run `generated_hybrid.ipynb`. This notebook includes training and evaluation for separate rule-based model, a Gradient Boosting Classifier, and a hybrid model that augments the Gradient Boosting Classifier with hand-crafted rules. In the evaluation, we also include a section on feature importance that describes weights of features in label prediction for different models. At the bottom of this notebook, we include a section to support qualitative evaluation of held out procesed MIMIC sentence pairs without labels. Using the trained model, we predict labels and manually evaluate true contradictions out of examples that were classified as contradictions.
 
-## Considerations for Demo
+## Demo
 
 ![image](data_structures.png)
 
@@ -95,3 +95,8 @@ We developed 3-tiered data representation, as shown in the figure above, which i
 
 In our pipeline, initializing a `Patient` instance constructs a 3-tiered tree with bidirectional edges between nodes so that we can trace back from, e.g. a `Sentence` instance to `Patient`. 
 
+### Demo via Anvil
+
+We created a demo, which is available through Anvil. To run the demo, run the `MIMIC Pipeline for Demo.ipynb` notebook. This will load all models and link the notebook to this [Anvil app](https://conflict-classifier.anvil.app). 
+
+For full implementation of the app, see [here](https://anvil.works/build#clone:ZY7LJ3KQDIXNU7FW=CSMDOUKOFUVV5D5KCR3DPFKJ). 
